@@ -3,7 +3,7 @@
   --color2: rgba(255, 255, 255, 0.40); /* reflexion moyenne */
   --carte1: rgba(255, 255, 255, 0.20); /* couche subtile */
   --carte2: rgba(0, 0, 0, 0.10);       /* ombre grise légère */
-  --crochet: url(assets/images/crochet.png);
+  --crochet: url(assets/images/crochet-2.png);
   --c01front: url(assets/images/thumb_vitrai-uvh.png);
   --c02front: url(assets/images/thumb_bleuet.png);
   --c03front: url(assets/images/thumb_bottine.png);
@@ -61,15 +61,15 @@
   
   /*border-radius: 5% / 3.5%;*/
 
-  box-shadow: 
+  /*box-shadow: 
     -5px -5px 5px -5px var(--color1),
      5px  5px 5px -5px var(--color2),
     -7px -7px 10px -5px transparent,
      7px  7px 10px -5px transparent,
      0   0   5px  0   rgba(255,255,255,0),
-     0  30px 30px -20px rgba(0, 0, 0, 0.5);
+     0  30px 30px -20px rgba(0, 0, 0, 0.5);*/
 
-  transition: transform 0.5s ease, box-shadow 0.2s ease;
+  transition: transform 0.5s ease/*, box-shadow 0.2s ease*/;
   will-change: transform, filter;
 
   background-color: #040712;
@@ -138,15 +138,15 @@
   isolation: isolate;
   
   border-radius: 5% / 3.5%;
-  box-shadow: 
+  /*box-shadow: 
     -5px -5px 5px -5px var(--color1), 
     5px 5px 5px -5px var(--color2), 
     -7px -7px 10px -5px transparent, 
     7px 7px 10px -5px transparent, 
     0 0 5px 0px rgba(255,255,255,0),
-    0 30px 30px -20px rgba(0, 0, 0, 0.5);
+    0 30px 30px -20px rgba(0, 0, 0, 0.5);*/
   
-  transition: transform 0.5s ease, box-shadow 0.2s ease;
+  transition: transform 0.5s ease, /*box-shadow 0.2s ease*/;
   will-change: transform, filter;
   
   background-color: #040712;
@@ -165,7 +165,7 @@
     -7px -7px 10px -5px var(--color1), 
     7px 7px 10px -5px var(--color2), 
     0 0 13px 4px rgba(255,255,255,0.3),
-    0 30px 30px -20px rgba(0, 0, 0, 0.5);
+    /*0 30px 30px -20px rgba(0, 0, 0, 0.5)*/;
 }
 
 .oldc4rd2:hover {
@@ -175,7 +175,7 @@
     -7px -7px 10px -5px var(--color1), 
     7px 7px 10px -5px var(--color2), 
     0 0 13px 4px rgba(255,255,255,0.3),
-    0 55px 35px -20px rgba(0, 0, 0, 0.5);
+    /*0 55px 35px -20px rgba(0, 0, 0, 0.5)*/;
 }
 
 
@@ -1215,7 +1215,7 @@
   box-shadow: 
     0 0 30px -5px white,
     0 0 10px -2px white,
-    0 30px 30px -20px rgba(0, 0, 0, 0.5);
+    /*0 30px 30px -20px rgba(0, 0, 0, 0.5)*/;
 }
 .cadre.eevee:hover:before,
 .cadre.eevee.active:before {
@@ -1252,7 +1252,7 @@
 .galerie-wrapper .cadre:nth-of-type(3) {
   width: 20vh;
   height: 27.5vh;
-  box-shadow: inset 0 0 0 1px rgba(white,0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(white,0.4)/*, 0 25px 15px -10px rgba(0, 0, 0, 0.5)*/;
   animation: none;
 }
 
