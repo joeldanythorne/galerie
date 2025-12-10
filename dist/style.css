@@ -1,160 +1,87 @@
 :root {
-  --color1: rgb(0, 231, 255);
-  --color2: rgb(255, 0, 231);
-  --carte1: #fac;
-  --carte2: #ddccaa;
+  --color1: rgba(255, 255, 255, 0.60); /* highlight blanc */
+  --color2: rgba(255, 255, 255, 0.40); /* reflexion moyenne */
+  --carte1: rgba(255, 255, 255, 0.20); /* couche subtile */
+  --carte2: rgba(0, 0, 0, 0.10);       /* ombre grise légère */
   --back: url(https://k3t0warri0r-coder.github.io/assets/Oracle-back.png);
-  --c01front: url(https://k3t0warri0r-coder.github.io/assets/01.png);
-  --c01mfront: url(https://k3t0warri0r-coder.github.io/assets/01m.png);
-  --c02front: url(https://k3t0warri0r-coder.github.io/assets/02.png);
-  --c02mfront: url(https://k3t0warri0r-coder.github.io/assets/02m.png);
-  --c03front: url(https://k3t0warri0r-coder.github.io/assets/03.png);
-  --c03mfront: url(https://k3t0warri0r-coder.github.io/assets/03m.png);
-  --c04front: url(https://k3t0warri0r-coder.github.io/assets/04.png);
-  --c04mfront: url(https://k3t0warri0r-coder.github.io/assets/04m.png);
-  --c05front: url(https://k3t0warri0r-coder.github.io/assets/05.png);
-  --c05mfront: url(https://k3t0warri0r-coder.github.io/assets/05m.png);
-  --c06front: url(https://k3t0warri0r-coder.github.io/assets/06.png);
-  --c06mfront: url(https://k3t0warri0r-coder.github.io/assets/06m.png);
-  --c07front: url(https://k3t0warri0r-coder.github.io/assets/07.png);
-  --c07mfront: url(https://k3t0warri0r-coder.github.io/assets/07m.png);
-  --c08front: url(https://k3t0warri0r-coder.github.io/assets/08.png);
-  --c08mfront: url(https://k3t0warri0r-coder.github.io/assets/08m.png);
-  --c09front: url(https://k3t0warri0r-coder.github.io/assets/09.png);
-  --c09mfront: url(https://k3t0warri0r-coder.github.io/assets/09m.png);
-  --c10front: url(https://k3t0warri0r-coder.github.io/assets/10.png);
-  --c10mfront: url(https://k3t0warri0r-coder.github.io/assets/10m.png);
-  --c11front: url(https://k3t0warri0r-coder.github.io/assets/11.png);
-  --c11mfront: url(https://k3t0warri0r-coder.github.io/assets/11m.png);
-  --c12front: url(https://k3t0warri0r-coder.github.io/assets/12.png);
-  --c12mfront: url(https://k3t0warri0r-coder.github.io/assets/12m.png);
-  --c13front: url(https://k3t0warri0r-coder.github.io/assets/13.png);
-  --c13mfront: url(https://k3t0warri0r-coder.github.io/assets/13m.png);
-  --c14front: url(https://k3t0warri0r-coder.github.io/assets/14.png);
-  --c14mfront: url(https://k3t0warri0r-coder.github.io/assets/14m.png);
-  --c15front: url(https://k3t0warri0r-coder.github.io/assets/15.png);
-  --c15mfront: url(https://k3t0warri0r-coder.github.io/assets/15m.png);
-  --c16front: url(https://k3t0warri0r-coder.github.io/assets/16.png);
-  --c16mfront: url(https://k3t0warri0r-coder.github.io/assets/16m.png);
-  --c17front: url(https://k3t0warri0r-coder.github.io/assets/17.png);
-  --c17mfront: url(https://k3t0warri0r-coder.github.io/assets/17m.png);
-  --c18front: url(https://k3t0warri0r-coder.github.io/assets/18.png);
-  --c18mfront: url(https://k3t0warri0r-coder.github.io/assets/18m.png);
-  --c19front: url(https://k3t0warri0r-coder.github.io/assets/19.png);
-  --c19mfront: url(https://k3t0warri0r-coder.github.io/assets/19m.png);
-  --c20front: url(https://k3t0warri0r-coder.github.io/assets/20.png);
-  --c20mfront: url(https://k3t0warri0r-coder.github.io/assets/20m.png);
-  --c21front: url(https://k3t0warri0r-coder.github.io/assets/21.png);
-  --c21mfront: url(https://k3t0warri0r-coder.github.io/assets/21m.png);
-  --c22front: url(https://k3t0warri0r-coder.github.io/assets/22.png);
-  --c22mfront: url(https://k3t0warri0r-coder.github.io/assets/22m.png);
-  --c23front: url(https://k3t0warri0r-coder.github.io/assets/23.png);
-  --c23mfront: url(https://k3t0warri0r-coder.github.io/assets/23m.png);
-  --c24front: url(https://k3t0warri0r-coder.github.io/assets/24.png);
-  --c24mfront: url(https://k3t0warri0r-coder.github.io/assets/24m.png);
-  --c25front: url(https://k3t0warri0r-coder.github.io/assets/25.png);
-  --c25mfront: url(https://k3t0warri0r-coder.github.io/assets/25m.png);
-  --c26front: url(https://k3t0warri0r-coder.github.io/assets/26.png);
-  --c26mfront: url(https://k3t0warri0r-coder.github.io/assets/26m.png);
-  --c27front: url(https://k3t0warri0r-coder.github.io/assets/27.png);
-  --c27mfront: url(https://k3t0warri0r-coder.github.io/assets/27m.png);
-  --c28front: url(https://k3t0warri0r-coder.github.io/assets/28.png);
-  --c28mfront: url(https://k3t0warri0r-coder.github.io/assets/28m.png);
-  --c29front: url(https://k3t0warri0r-coder.github.io/assets/29.png);
-  --c29mfront: url(https://k3t0warri0r-coder.github.io/assets/29m.png);
-  --c30front: url(https://k3t0warri0r-coder.github.io/assets/30.png);
-  --c30mfront: url(https://k3t0warri0r-coder.github.io/assets/30m.png);
-  --c31front: url(https://k3t0warri0r-coder.github.io/assets/31.png);
-  --c31mfront: url(https://k3t0warri0r-coder.github.io/assets/31m.png);
-  --c32front: url(https://k3t0warri0r-coder.github.io/assets/32.png);
-  --c32mfront: url(https://k3t0warri0r-coder.github.io/assets/32m.png);
-  --c33front: url(https://k3t0warri0r-coder.github.io/assets/33.png);
-  --c33mfront: url(https://k3t0warri0r-coder.github.io/assets/33m.png);
-  --c34front: url(https://k3t0warri0r-coder.github.io/assets/34.png);
-  --c34mfront: url(https://k3t0warri0r-coder.github.io/assets/34m.png);
-  --c35front: url(https://k3t0warri0r-coder.github.io/assets/35.png);
-  --c35mfront: url(https://k3t0warri0r-coder.github.io/assets/35m.png);
-  --c36front: url(https://k3t0warri0r-coder.github.io/assets/36.png);
-  --c36mfront: url(https://k3t0warri0r-coder.github.io/assets/36m.png);
-  --c37front: url(https://k3t0warri0r-coder.github.io/assets/37.png);
-  --c37mfront: url(https://k3t0warri0r-coder.github.io/assets/37m.png);
-  --c38front: url(https://k3t0warri0r-coder.github.io/assets/38.png);
-  --c38mfront: url(https://k3t0warri0r-coder.github.io/assets/38m.png);
-  --c39front: url(https://k3t0warri0r-coder.github.io/assets/39.png);
-  --c39mfront: url(https://k3t0warri0r-coder.github.io/assets/39m.png);
-  --c40front: url(https://k3t0warri0r-coder.github.io/assets/40.png);
-  --c40mfront: url(https://k3t0warri0r-coder.github.io/assets/40m.png);
-  --c41front: url(https://k3t0warri0r-coder.github.io/assets/41.png);
-  --c41mfront: url(https://k3t0warri0r-coder.github.io/assets/41m.png);
-  --c42front: url(https://k3t0warri0r-coder.github.io/assets/42.png);
-  --c42mfront: url(https://k3t0warri0r-coder.github.io/assets/42m.png);
-  --c43front: url(https://k3t0warri0r-coder.github.io/assets/43.png);
-  --c43mfront: url(https://k3t0warri0r-coder.github.io/assets/43m.png);
-  --c44front: url(https://k3t0warri0r-coder.github.io/assets/44.png);
-  --c44mfront: url(https://k3t0warri0r-coder.github.io/assets/44m.png);
-  --c45front: url(https://k3t0warri0r-coder.github.io/assets/45.png);
-  --c45mfront: url(https://k3t0warri0r-coder.github.io/assets/45m.png);
-  --c46front: url(https://k3t0warri0r-coder.github.io/assets/46.png);
-  --c46mfront: url(https://k3t0warri0r-coder.github.io/assets/46m.png);
-  --c47front: url(https://k3t0warri0r-coder.github.io/assets/47.png);
-  --c47mfront: url(https://k3t0warri0r-coder.github.io/assets/47m.png);
-  --c48front: url(https://k3t0warri0r-coder.github.io/assets/48.png);
-  --c48mfront: url(https://k3t0warri0r-coder.github.io/assets/48m.png);
-  --c49front: url(https://k3t0warri0r-coder.github.io/assets/49.png);
-  --c49mfront: url(https://k3t0warri0r-coder.github.io/assets/49m.png);
-  --c50front: url(https://k3t0warri0r-coder.github.io/assets/50.png);
-  --c50mfront: url(https://k3t0warri0r-coder.github.io/assets/50m.png);
-  --c51front: url(https://k3t0warri0r-coder.github.io/assets/51.png);
-  --c51mfront: url(https://k3t0warri0r-coder.github.io/assets/51m.png);
-  --c52front: url(https://k3t0warri0r-coder.github.io/assets/52.png);
-  --c52mfront: url(https://k3t0warri0r-coder.github.io/assets/52m.png);
-  --c53front: url(https://k3t0warri0r-coder.github.io/assets/53.png);
-  --c53mfront: url(https://k3t0warri0r-coder.github.io/assets/53m.png);
-  --c54front: url(https://k3t0warri0r-coder.github.io/assets/54.png);
-  --c54mfront: url(https://k3t0warri0r-coder.github.io/assets/54m.png);
-  --c55front: url(https://k3t0warri0r-coder.github.io/assets/55.png);
-  --c55mfront: url(https://k3t0warri0r-coder.github.io/assets/55m.png);
-  --c56front: url(https://k3t0warri0r-coder.github.io/assets/56.png);
-  --c56mfront: url(https://k3t0warri0r-coder.github.io/assets/56m.png);
-  --c57front: url(https://k3t0warri0r-coder.github.io/assets/57.png);
-  --c57mfront: url(https://k3t0warri0r-coder.github.io/assets/57m.png);
-  --c58front: url(https://k3t0warri0r-coder.github.io/assets/58.png);
-  --c58mfront: url(https://k3t0warri0r-coder.github.io/assets/58m.png);
-  --c59front: url(https://k3t0warri0r-coder.github.io/assets/59.png);
-  --c59mfront: url(https://k3t0warri0r-coder.github.io/assets/59m.png);
-  --c60front: url(https://k3t0warri0r-coder.github.io/assets/60.png);
-  --c60mfront: url(https://k3t0warri0r-coder.github.io/assets/60m.png);
-  --c61front: url(https://k3t0warri0r-coder.github.io/assets/61.png);
-  --c61mfront: url(https://k3t0warri0r-coder.github.io/assets/61m.png);
-  --c62front: url(https://k3t0warri0r-coder.github.io/assets/62.png);
-  --c62mfront: url(https://k3t0warri0r-coder.github.io/assets/62m.png);
-  --c63front: url(https://k3t0warri0r-coder.github.io/assets/63.png);
-  --c63mfront: url(https://k3t0warri0r-coder.github.io/assets/63m.png);
-  --c64front: url(https://k3t0warri0r-coder.github.io/assets/64.png);
-  --c64mfront: url(https://k3t0warri0r-coder.github.io/assets/64m.png);
-  --c65front: url(https://k3t0warri0r-coder.github.io/assets/65.png);
-  --c65mfront: url(https://k3t0warri0r-coder.github.io/assets/65m.png);
-  --c66front: url(https://k3t0warri0r-coder.github.io/assets/66.png);
-  --c66mfront: url(https://k3t0warri0r-coder.github.io/assets/66m.png);
-  --c67front: url(https://k3t0warri0r-coder.github.io/assets/67.png);
-  --c67mfront: url(https://k3t0warri0r-coder.github.io/assets/67m.png);
-  --c68front: url(https://k3t0warri0r-coder.github.io/assets/68.png);
-  --c68mfront: url(https://k3t0warri0r-coder.github.io/assets/68m.png);
-  --c69front: url(https://k3t0warri0r-coder.github.io/assets/69.png);
-  --c69mfront: url(https://k3t0warri0r-coder.github.io/assets/69m.png);
-  --c70front: url(https://k3t0warri0r-coder.github.io/assets/70.png);
-  --c70mfront: url(https://k3t0warri0r-coder.github.io/assets/70m.png);
-  --c71front: url(https://k3t0warri0r-coder.github.io/assets/71.png);
-  --c71mfront: url(https://k3t0warri0r-coder.github.io/assets/71m.png);
-  --c72front: url(https://k3t0warri0r-coder.github.io/assets/72.png);
-  --c72mfront: url(https://k3t0warri0r-coder.github.io/assets/72m.png);
-  --c73front: url(https://k3t0warri0r-coder.github.io/assets/73.png);
-  --c73mfront: url(https://k3t0warri0r-coder.github.io/assets/73m.png);
-  --c74front: url(https://k3t0warri0r-coder.github.io/assets/74.png);
-  --c74mfront: url(https://k3t0warri0r-coder.github.io/assets/74m.png);
+  --c01front: url(assets/images/thumb_vitrai-uvh.png);
+  --c02front: url(assets/images/thumb_bleuet.png);
+  --c03front: url(assets/images/thumb_bottine.png);
+  --c04front: url(assets/images/thumb_clown.png);
+  --c05front: url(assets/images/thumb_conspipuppet.png);
+  --c06front: url(assets/images/thumb_crimesoda.png);
+  --c07front: url(assets/images/thumb_ensemble.png);
+  --c08front: url(assets/images/thumb_evildead.png);
+  --c09front: url(assets/images/thumb_file-indienne.png);
+  --c10front: url(assets/images/thumb_friday13.png);
+  --c11front: url(assets/images/thumb_gaudet.png);
+  --c12front: url(assets/images/thumb_godzilla.png);
+  --c13front: url(assets/images/thumb_groundhog.jpg);
+  --c14front: url(assets/images/thumb_guenilles.png);
+  --c15front: url(assets/images/thumb_hugo.png);
+  --c16front: url(assets/images/thumb_karltremblay.png);
+  --c17front: url(assets/images/thumb_karma.png);
+  --c18front: url(assets/images/thumb_lego.png);
+  --c19front: url(assets/images/thumb_lotr.png);
+  --c20front: url(assets/images/thumb_louiseville2024.png);
+  --c21front: url(assets/images/thumb_lynda.png);
+  --c22front: url(assets/images/thumb_mado.png);
+  --c23front: url(assets/images/thumb_maillet.png);
+  --c24front: url(assets/images/thumb_matrix.png);
+  --c25front: url(assets/images/thumb_orgonite01.png);
+  --c26front: url(assets/images/thumb_orgonite3.png);
+  --c27front: url(assets/images/thumb_orgonite-de-nowel.png);
+  --c28front: url(assets/images/thumb_peter.png);
+  --c29front: url(assets/images/thumb_probtechniques.png);
+  --c30front: url(assets/images/thumb_ptit-joel.jpg);
+  --c31front: url(assets/images/thumb_mutevh.png);
+  --c32front: url(assets/images/thumb_napu.png);
+  --c33front: url(assets/images/thumb_singérome.png);
+  --c34front: url(assets/images/thumb_starwars.png);
+  --c35front: url(assets/images/thumb_steve.jpg);
+  --c36front: url(assets/images/thumb_taser.png);
+  --c37front: url(assets/images/thumb_theremin.jpg);
+  --c38front: url(assets/images/thumb_trump.png);
+  --c39front: url(assets/images/thumb_trump2.png);
+  --c40front: url(assets/images/thumb_une-fois-au-chalet.png);
+  --c41front: url(assets/images/thumb_uvh.png);
+  --c42front: url(assets/images/thumb_Stucco.jpg);
+  --c43front: url(assets/images/thumb_nightmare.png);
 }
 
-.card {
+.cadre {
+  width: 300px;
+  height: 300px;
+
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+  touch-action: none;
+  isolation: isolate;
+  
+  border-radius: 5% / 3.5%;
+
+  box-shadow: 
+    -5px -5px 5px -5px var(--color1),
+     5px  5px 5px -5px var(--color2),
+    -7px -7px 10px -5px transparent,
+     7px  7px 10px -5px transparent,
+     0   0   5px  0   rgba(255,255,255,0),
+     0  55px 35px -20px rgba(0, 0, 0, 0.5);
+
+  transition: transform 0.5s ease, box-shadow 0.2s ease;
+  will-change: transform, filter;
+
+  background-color: #040712;
+  background-image: var(--front);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  transform-origin: center;
+}
+
+.oldc4rd2 {
   width: 61.9vw;
   height: 100vw;
     // width: clamp(200px, 61vh, 18vw);
@@ -197,50 +124,7 @@
   
 }
 
-.card2 {
-  width: 61.9vw;
-  height: 100vw;
-    // width: clamp(200px, 61vh, 18vw);
-    // height: clamp(340px, 95vh, 35.2vw);
-  @media screen and (min-width: 500px) {
-    // width: 61vh;
-    // height: 100vh;
-    // max-width: 500px;
-    // max-height: 1000px;
-    width: clamp(12.9vw, 61vh, 18vw);
-    height: clamp(25vw, 90vh, 30.2vw);
-  }
-  
-  position: relative;
-  overflow: hidden;
-  margin: 20px;
-  overflow: hidden;
-  z-index: 10;
-  touch-action: none;
-  isolation: isolate;
-  
-  border-radius: 5% / 3.5%;
-  box-shadow: 
-    -5px -5px 5px -5px var(--color1), 
-    5px 5px 5px -5px var(--color2), 
-    -7px -7px 10px -5px transparent, 
-    7px 7px 10px -5px transparent, 
-    0 0 5px 0px rgba(255,255,255,0),
-    0 55px 35px -20px rgba(0, 0, 0, 0.5);
-  
-  transition: transform 0.5s ease, box-shadow 0.2s ease;
-  will-change: transform, filter;
-  
-  background-color: #040712;
-  background-image: var(--front);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  transform-origin: center;
-  
-}
-
-.card:hover {
+.cadre:hover {
   box-shadow: 
     -20px -20px 30px -25px var(--color1), 
     20px 20px 30px -25px var(--color2), 
@@ -250,7 +134,7 @@
     0 55px 35px -20px rgba(0, 0, 0, 0.5);
 }
 
-.card2:hover {
+.oldc4rd2:hover {
   box-shadow: 
     -20px -20px 30px -25px var(--color1), 
     20px 20px 30px -25px var(--color2), 
@@ -262,1117 +146,821 @@
 
 
 
-.card2.cback {
+.oldc4rd2.cback {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--back);
 }
-.card.c01 {
+.cadre.c01 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c01front);
 }
-.card.c01m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c01mfront);
-}
-.card2.c01 {
+
+.oldc4rd2.c01 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c01front);
 }
-.card.c02 {
+.cadre.c02 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c02front);
 }
-.card.c02m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c02mfront);
-}
-.card2.c02 {
+
+.oldc4rd2.c02 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c02front);
 }
-.card.c03 {
+.cadre.c03 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c03front);
 }
-.card.c03m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c03mfront);
-}
-.card2.c03 {
+
+.oldc4rd2.c03 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c03front);
 }
-.card.c04 {
+.cadre.c04 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c04front);
 }
-.card.c04m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c04mfront);
-}
-.card2.c04 {
+
+.oldc4rd2.c04 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c04front);
 }
-.card.c05 {
+.cadre.c05 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c05front);
 }
-.card.c05m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c05mfront);
-}
-.card2.c05 {
+
+.oldc4rd2.c05 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c05front);
 }
-.card.c06 {
+.cadre.c06 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c06front);
 }
-.card.c06m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c06mfront);
-}
-.card2.c06 {
+
+.oldc4rd2.c06 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c06front);
 }
-.card.c07 {
+.cadre.c07 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c07front);
 }
-.card.c07m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c07mfront);
-}
-.card2.c07 {
+
+.oldc4rd2.c07 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c07front);
 }
-.card.c08 {
+.cadre.c08 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c08front);
 }
-.card.c08m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c08mfront);
-}
-.card2.c08 {
+
+.oldc4rd2.c08 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c08front);
 }
-.card.c09 {
+.cadre.c09 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c09front);
 }
-.card.c09m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c09mfront);
-}
-.card2.c09 {
+
+.oldc4rd2.c09 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c09front);
 }
-.card.c10 {
+.cadre.c10 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c10front);
 }
-.card.c10m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c10mfront);
-}
-.card2.c10 {
+
+.oldc4rd2.c10 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c10front);
 }
-.card.c11 {
+.cadre.c11 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c11front);
 }
-.card.c11m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c11mfront);
-}
-.card2.c11 {
+
+.oldc4rd2.c11 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c11front);
 }
-.card.c12 {
+.cadre.c12 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c12front);
 }
-.card.c12m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c12mfront);
-}
-.card2.c12 {
+
+.oldc4rd2.c12 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c12front);
 }
-.card.c13 {
+.cadre.c13 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c13front);
 }
-.card.c13m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c13mfront);
-}
-.card2.c13 {
+
+.oldc4rd2.c13 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c13front);
 }
-.card.c14 {
+.cadre.c14 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c14front);
 }
-.card.c14m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c14mfront);
-}
-.card2.c14 {
+
+.oldc4rd2.c14 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c14front);
 }
-.card.c15 {
+.cadre.c15 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c15front);
 }
-.card.c15m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c15mfront);
-}
-.card2.c15 {
+
+.oldc4rd2.c15 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c15front);
 }
-.card.c16 {
+.cadre.c16 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c16front);
 }
-.card.c16m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c16mfront);
-}
-.card2.c16 {
+
+.oldc4rd2.c16 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c16front);
 }
-.card.c17 {
+.cadre.c17 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c17front);
 }
-.card.c17m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c17mfront);
-}
-.card2.c17 {
+
+.oldc4rd2.c17 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c17front);
 }
-.card.c18 {
+.cadre.c18 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c18front);
 }
-.card.c18m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c18mfront);
-}
-.card2.c18 {
+
+.oldc4rd2.c18 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c18front);
 }
-.card.c19 {
+.cadre.c19 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c19front);
 }
-.card.c19m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c19mfront);
-}
-.card2.c19 {
+
+.oldc4rd2.c19 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c19front);
 }
-.card.c20 {
+.cadre.c20 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c20front);
 }
-.card.c20m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c20mfront);
-}
-.card2.c20 {
+
+.oldc4rd2.c20 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c20front);
 }
-.card.c21 {
+.cadre.c21 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c21front);
 }
-.card.c21m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c21mfront);
-}
-.card2.c21 {
+
+.oldc4rd2.c21 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c21front);
 }
-.card.c22 {
+.cadre.c22 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c22front);
 }
-.card.c22m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c22mfront);
-}
-.card2.c22 {
+
+.oldc4rd2.c22 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c22front);
 }
-.card.c23 {
+.cadre.c23 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c23front);
 }
-.card.c23m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c23mfront);
-}
-.card2.c23 {
+
+.oldc4rd2.c23 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c23front);
 }
-.card.c24 {
+.cadre.c24 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c24front);
 }
-.card.c24m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c24mfront);
-}
-.card2.c24 {
+
+.oldc4rd2.c24 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c24front);
 }
-.card.c25 {
+.cadre.c25 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c25front);
 }
-.card.c25m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c25mfront);
-}
-.card2.c25 {
+
+.oldc4rd2.c25 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c25front);
 }
-.card.c26 {
+.cadre.c26 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c26front);
 }
-.card.c26m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c26mfront);
-}
-.card2.c26 {
+
+.oldc4rd2.c26 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c26front);
 }
-.card.c27 {
+.cadre.c27 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c27front);
 }
-.card.c27m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c27mfront);
-}
-.card2.c27 {
+
+.oldc4rd2.c27 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c27front);
 }
-.card.c28 {
+.cadre.c28 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c28front);
 }
-.card.c28m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c28mfront);
-}
-.card2.c28 {
+
+.oldc4rd2.c28 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c28front);
 }
-.card.c29 {
+.cadre.c29 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c29front);
 }
-.card.c29m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c29mfront);
-}
-.card2.c29 {
+
+.oldc4rd2.c29 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c29front);
 }
-.card.c30 {
+.cadre.c30 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c30front);
 }
-.card.c30m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c30mfront);
-}
-.card2.c30 {
+
+.oldc4rd2.c30 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c30front);
 }
-.card.c31 {
+.cadre.c31 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c31front);
 }
-.card.c31m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c31mfront);
-}
-.card2.c31 {
+
+.oldc4rd2.c31 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c31front);
 }
-.card.c32 {
+.cadre.c32 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c32front);
 }
-.card.c32m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c32mfront);
-}
-.card2.c32 {
+
+.oldc4rd2.c32 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c32front);
 }
-.card.c33 {
+.cadre.c33 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c33front);
 }
-.card.c33m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c33mfront);
-}
-.card2.c33 {
+
+.oldc4rd2.c33 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c33front);
 }
-.card.c34 {
+.cadre.c34 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c34front);
 }
-.card.c34m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c34mfront);
-}
-.card2.c34 {
+
+.oldc4rd2.c34 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c34front);
 }
-.card.c35 {
+.cadre.c35 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c35front);
 }
-.card.c35m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c35mfront);
-}
-.card2.c35 {
+
+.oldc4rd2.c35 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c35front);
 }
-.card.c36 {
+.cadre.c36 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c36front);
 }
-.card.c36m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c36mfront);
-}
-.card2.c36 {
+
+.oldc4rd2.c36 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c36front);
 }
-.card.c37 {
+.cadre.c37 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c37front);
 }
-.card.c37m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c37mfront);
-}
-.card2.c37 {
+
+.oldc4rd2.c37 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c37front);
 }
-.card.c38 {
+.cadre.c38 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c38front);
 }
-.card.c38m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c38mfront);
-}
-.card2.c38 {
+
+.oldc4rd2.c38 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c38front);
 }
-.card.c39 {
+.cadre.c39 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c39front);
 }
-.card.c39m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c39mfront);
-}
-.card2.c39 {
+
+.oldc4rd2.c39 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c39front);
 }
-.card.c40 {
+.cadre.c40 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c40front);
 }
-.card.c40m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c40mfront);
-}
-.card2.c40 {
+
+.oldc4rd2.c40 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c40front);
 }
-.card.c41 {
+.cadre.c41 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c41front);
 }
-.card.c41m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c41mfront);
-}
-.card2.c41 {
+
+.oldc4rd2.c41 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c41front);
 }
-.card.c42 {
+.cadre.c42 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c42front);
 }
-.card.c42m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c42mfront);
-}
-.card2.c42 {
+
+.oldc4rd2.c42 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c42front);
 }
-.card.c43 {
+.cadre.c43 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c43front);
 }
-.card.c43m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c43mfront);
-}
-.card2.c43 {
+
+.oldc4rd2.c43 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c43front);
 }
-.card.c44 {
+.cadre.c44 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c44front);
 }
-.card.c44m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c44mfront);
-}
-.card2.c44 {
+
+.oldc4rd2.c44 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c44front);
 }
-.card.c45 {
+.cadre.c45 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c45front);
 }
-.card.c45m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c45mfront);
-}
-.card2.c45 {
+
+.oldc4rd2.c45 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c45front);
 }
-.card.c46 {
+.cadre.c46 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c46front);
 }
-.card.c46m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c46mfront);
-}
-.card2.c46 {
+
+.oldc4rd2.c46 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c46front);
 }
-.card.c47 {
+.cadre.c47 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c47front);
 }
-.card.c47m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c47mfront);
-}
-.card2.c47 {
+
+.oldc4rd2.c47 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c47front);
 }
-.card.c48 {
+.cadre.c48 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c48front);
 }
-.card.c48m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c48mfront);
-}
-.card2.c48 {
+
+.oldc4rd2.c48 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c48front);
 }
-.card.c49 {
+.cadre.c49 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c49front);
 }
-.card.c49m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c49mfront);
-}
-.card2.c49 {
+
+.oldc4rd2.c49 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c49front);
 }
-.card.c50 {
+.cadre.c50 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c50front);
 }
-.card.c50m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c50mfront);
-}
-.card2.c50 {
+
+.oldc4rd2.c50 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c50front);
 }
-.card.c51 {
+.cadre.c51 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c51front);
 }
-.card.c51m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c51mfront);
-}
-.card2.c51 {
+
+.oldc4rd2.c51 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c51front);
 }
-.card.c52 {
+.cadre.c52 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c52front);
 }
-.card.c52m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c52mfront);
-}
-.card2.c52 {
+
+.oldc4rd2.c52 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c52front);
 }
-.card.c53 {
+.cadre.c53 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c53front);
 }
-.card.c53m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c53mfront);
-}
-.card2.c53 {
+
+.oldc4rd2.c53 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c53front);
 }
-.card.c54 {
+.cadre.c54 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c54front);
 }
-.card.c54m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c54mfront);
-}
-.card2.c54 {
+
+.oldc4rd2.c54 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c54front);
 }
-.card.c55 {
+.cadre.c55 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c55front);
 }
-.card.c55m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c55mfront);
-}
-.card2.c55 {
+
+.oldc4rd2.c55 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c55front);
 }
-.card.c56 {
+.cadre.c56 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c56front);
 }
-.card.c56m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c56mfront);
-}
-.card2.c56 {
+
+.oldc4rd2.c56 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c56front);
 }
-.card.c57 {
+.cadre.c57 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c57front);
 }
-.card.c57m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c57mfront);
-}
-.card2.c57 {
+
+.oldc4rd2.c57 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c57front);
 }
-.card.c58 {
+.cadre.c58 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c58front);
 }
-.card.c58m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c58mfront);
-}
-.card2.c58 {
+
+.oldc4rd2.c58 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c58front);
 }
-.card.c59 {
+.cadre.c59 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c59front);
 }
-.card.c59m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c59mfront);
-}
-.card2.c59 {
+
+.oldc4rd2.c59 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c59front);
 }
-.card.c60 {
+.cadre.c60 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c60front);
 }
-.card.c60m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c60mfront);
-}
-.card2.c60 {
+
+.oldc4rd2.c60 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c60front);
 }
-.card.c61 {
+.cadre.c61 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c61front);
 }
-.card.c61m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c61mfront);
-}
-.card2.c61 {
+
+.oldc4rd2.c61 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c61front);
 }
-.card.c62 {
+.cadre.c62 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c62front);
 }
-.card.c62m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c62mfront);
-}
-.card2.c62 {
+
+.oldc4rd2.c62 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c62front);
 }
-.card.c63 {
+.cadre.c63 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c63front);
 }
-.card.c63m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c63mfront);
-}
-.card2.c63 {
+
+.oldc4rd2.c63 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c63front);
 }
-.card.c64 {
+.cadre.c64 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c64front);
 }
-.card.c64m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c64mfront);
-}
-.card2.c64 {
+
+.oldc4rd2.c64 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c64front);
 }
-.card.c65 {
+.cadre.c65 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c65front);
 }
-.card.c65m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c65mfront);
-}
-.card2.c65 {
+
+.oldc4rd2.c65 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c65front);
 }
-.card.c66 {
+.cadre.c66 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c66front);
 }
-.card.c66m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c66mfront);
-}
-.card2.c66 {
+
+.oldc4rd2.c66 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c66front);
 }
-.card.c67 {
+.cadre.c67 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c67front);
 }
-.card.c67m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c67mfront);
-}
-.card2.c67 {
+
+.oldc4rd2.c67 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c67front);
 }
-.card.c68 {
+.cadre.c68 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c68front);
 }
-.card.c68m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c68mfront);
-}
-.card2.c68 {
+
+.oldc4rd2.c68 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c68front);
 }
-.card.c69 {
+.cadre.c69 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c69front);
 }
-.card.c69m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c69mfront);
-}
-.card2.c69 {
+
+.oldc4rd2.c69 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c69front);
 }
-.card.c70 {
+.cadre.c70 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c70front);
 }
-.card.c70m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c70mfront);
-}
-.card2.c70 {
+
+.oldc4rd2.c70 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c70front);
 }
-.card.c71 {
+.cadre.c71 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c71front);
 }
-.card.c71m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c71mfront);
-}
-.card2.c71 {
+
+.oldc4rd2.c71 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c71front);
 }
-.card.c72 {
+.cadre.c72 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c72front);
 }
-.card.c72m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c72mfront);
-}
-.card2.c72 {
+
+.oldc4rd2.c72 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c72front);
 }
-.card.c73 {
+.cadre.c73 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c73front);
 }
-.card.c73m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c73mfront);
-}
-.card2.c73 {
+
+.oldc4rd2.c73 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c73front);
 }
-.card.c74 {
+.cadre.c74 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c74front);
 }
-.card.c74m {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c74mfront);
-}
-.card2.c74 {
+
+.oldc4rd2.c74 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c74front);
@@ -1382,8 +970,8 @@
 
 
 
-.card:before,
-.card:after {
+.cadre:before,
+.cadre:after {
   content: "";
   position: absolute;
   left: 0;
@@ -1396,8 +984,8 @@
   transition: all .33s ease;
 }
 
-.card2:before,
-.card2:after {
+.oldc4rd2:before,
+.oldc4rd2:after {
   content: "";
   position: absolute;
   left: 0;
@@ -1410,7 +998,7 @@
   transition: all .33s ease;
 }
 
-.card:before {
+.cadre:before {
   background-position: 50% 50%;
   background-size: 300% 300%;
   background-image: linear-gradient(
@@ -1427,11 +1015,15 @@
   z-index: 1;
 }
 
-.card:after {
+.cadre:after {
   opacity: 1;
-  background-image: url("https://assets.codepen.io/13471/sparkles.gif"), 
-    url(https://assets.codepen.io/13471/holo.png), 
-    linear-gradient(125deg, #ff008450 15%, #fca40040 30%, #ffff0030 40%, #00ff8a20 60%, #00cfff40 70%, #cc4cfa50 85%);
+  background-image: linear-gradient(
+  125deg,
+  rgba(255, 255, 255, 0.25) 10%,
+  rgba(255, 255, 255, 0.08) 30%,
+  rgba(255, 255, 255, 0.04) 50%,
+  rgba(255, 255, 255, 0.10) 75%
+);
   background-position: 50% 50%;
   background-size: 160%;
   background-blend-mode: overlay;
@@ -1442,32 +1034,32 @@
   opacity: .75;
 }
 
-.card.active:after,
-.card:hover:after {
+.cadre.active:after,
+.cadre:hover:after {
   filter: brightness(1) contrast(1);;
   opacity: 1;
 }
 
-.card2.active:after,
-.card2:hover:after {
+.oldc4rd2.active:after,
+.oldc4rd2:hover:after {
   filter: brightness(1) contrast(1);;
   opacity: 1;
 }
 
-.card.active,
-.card:hover {
+.cadre.active,
+.cadre:hover {
   animation: none;
   transition: box-shadow 0.1s ease-out;
 }
 
-.card2.active,
-.card2:hover {
+.oldc4rd2.active,
+.oldc4rd2:hover {
   animation: none;
   transition: box-shadow 0.1s ease-out;
 }
 
-.card.active:before,
-.card:hover:before {
+.cadre.active:before,
+.cadre:hover:before {
   animation: none;
   background-image: linear-gradient(
     110deg,
@@ -1483,15 +1075,15 @@
   transition: none;
 }
 
-.card.active:before,
-.card:hover:before,
-.card.active:after,
-.card:hover:after {
+.cadre.active:before,
+.cadre:hover:before,
+.cadre.active:after,
+.cadre:hover:after {
   animation: none;
   transition: none;
 }
 
-.card.animated {
+.cadre.animated {
   transition: none;
   animation: holoCard 12s ease 0s 1;
   &:before { 
@@ -1504,7 +1096,7 @@
   }
 }
 
-.card2.animated {
+.oldc4rd2.animated {
   transition: none;
   animation: holoCard 12s ease 0s 1;
   &:before { 
@@ -1585,14 +1177,14 @@
 
 
 
-.card.eevee:hover {
+.cadre.eevee:hover {
   box-shadow: 
     0 0 30px -5px white,
     0 0 10px -2px white,
     0 55px 35px -20px rgba(0, 0, 0, 0.5);
 }
-.card.eevee:hover:before,
-.card.eevee.active:before {
+.cadre.eevee:hover:before,
+.cadre.eevee.active:before {
   background-image: linear-gradient(
     115deg,
     transparent 20%,
@@ -1607,53 +1199,47 @@
 
 
 
-.cards .three-d-wrapper {
+.three-d-wrapper {
   perspective: 750px;
   isolation: isolate;
   transform: translate3d(0.1px, 0.1px, 0.1px )
 }
-.demo .card {
+.galerie-wrapper .cadre {
   background-image: var(--back);
   font-size: 2vh
 }
-.demo .card > span {
+.galerie-wrapper .cadre > span {
   position: relative;
   top: 45%;
 }
 
-.demo .card:nth-of-type(1),
-.demo .card:nth-of-type(2),
-.demo .card:nth-of-type(3) {
+.galerie-wrapper .cadre:nth-of-type(1),
+.galerie-wrapper .cadre:nth-of-type(2),
+.galerie-wrapper .cadre:nth-of-type(3) {
   width: 20vh;
   height: 27.5vh;
   box-shadow: inset 0 0 0 1px rgba(white,0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
   animation: none;
 }
 
-.demo .card:nth-of-type(1),
-.demo .card:nth-of-type(2),
-.demo .card:nth-of-type(3) {
+.galerie-wrapper .cadre:nth-of-type(1),
+.galerie-wrapper .cadre:nth-of-type(2),
+.galerie-wrapper .cadre:nth-of-type(3) {
   &:before, &:after {
     animation: none;
     // opacity: 1;
   } 
 }
-.demo .card:nth-of-type(1) {
+.galerie-wrapper .cadre:nth-of-type(1) {
   &:before, &:after { display: none; }
 }
-.demo .card:nth-of-type(2) {
+.galerie-wrapper .cadre:nth-of-type(2) {
   background: none;
   &:before { display: none; }
 }
-.demo .card:nth-of-type(3) {
+.galerie-wrapper .cadre:nth-of-type(3) {
   background: none;
   &:after { display: none; }
-}
-
-.operator {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 6vh;
 }
 
 
@@ -1686,22 +1272,25 @@ p {
   position: relative;
 }
 
-.demo,
-.cards { 
+
+.galerie { 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   position: relative;
   z-index: 1;
+  flex-wrap: wrap;
+  margin:0 auto;
+  max-width: 1600px;
 }
-.demo {
+.galerie-wrapper {
   flex-direction: row;
   justify-content: center;
 }
 
 @media screen and (min-width: 600px) {
-  .cards {
+  .galerie {
     flex-direction: row;
   }
 }
@@ -1711,7 +1300,7 @@ p {
 
 
 
-.cards .card {
+.galerie .cadre {
   &:nth-child(2) {
     &, &:before, &:after {
       animation-delay: 0.25s;
