@@ -61,7 +61,7 @@ states_dictionary2={
   '39': "trump2",
   '40': "une-fois-au-chalet",
   '41': "uvh",
-  '42': "Stucco",
+  '42': "stucco",
   '43': "nightmare"
 }
 
@@ -74,28 +74,64 @@ let text =  '<section class="galerie">';
 console.log("File:: ./collectioninfo/"+ viewer +".json")
 
 async function Fetching() {
-  const response = await fetch("./collectioninfo/" + viewer + ".json");
-  const ownedCards = await response.json(); // un array ex: ["Le secret", "Le courtisant"]
-
+  // Section HTML qui va contenir toutes les cartes
   let text = '<section class="galerie">';
 
-  for (let i = 1; i <= Object.keys(states_dictionary2).length; i++) {
+  try {
+    // Récupère le JSON du viewer (ex: ./collectioninfo/ccsuburban.json)
+    const response = await fetch('./collectioninfo/' + viewer + '.json');
 
-    const znumber = i.toString().padStart(2, "0");
-    const cardName = states_dictionary2[znumber];
+    if (!response.ok) {
+      console.error('Erreur de chargement du JSON pour', viewer, response.status);
+      text += '<p class="error">Impossible de charger la collection.</p>';
+    } else {
+      const jsonData = await response.json();
 
-    text += '<div class="three-d-wrapper">';
+      console.log('Collection chargée pour le viewer :', viewer);
+      console.log('Nombre de cartes définies :', Object.keys(states_dictionary2).length);
 
-    text += '<div class="cadre c' + znumber + ' animated"></div>';
+      const totalCards = Object.keys(states_dictionary2).length;
 
-    text += '</div>';
+      // Boucle sur toutes les cartes définies dans states_dictionary2
+      for (let i = 1; i <= totalCards; i++) {
+        // "01", "02", "03", ...
+        const znumber = i.toString().padStart(2, '0');
+
+        // Nom de la carte / clé JSON (ex: "vitrai-uvh", "bleuet", etc.)
+        const cardKey = states_dictionary2[znumber];
+
+        // Valeur dans le JSON: 1 = possède, 0 ou undefined = ne possède pas
+        const owned = jsonData[cardKey] === 1;
+
+        // Wrapper 3D autour de la carte
+        text += '<div class="three-d-wrapper">';
+
+        if (owned) {
+          // Carte possédée → version "normale"
+          console.log('Carte possédée :', cardKey, '(c' + znumber + ')');
+          text += '<div class="cadre c' + znumber + ' animated"></div>';
+        } else {
+          // Carte non possédée → version "dos / grisée / autre visuel"
+          console.log('Carte non possédée :', cardKey, '(c' + znumber + ')');
+          text += '<div class="sans-cadre c' + znumber + ' animated"></div>';
+        }
+
+        text += '</div>'; // fin .three-d-wrapper
+      }
+    }
+  } catch (err) {
+    console.error('Erreur dans Fetching() :', err);
+    text += '<p class="error">Erreur interne lors du chargement des cartes.</p>';
   }
 
+  // Fermeture de la section et injection dans la page
   text += '</section>';
-  document.getElementById("galerie-wrapper").innerHTML = text;
+  document.getElementById('galerie-wrapper').innerHTML = text;
 }
 
+// Lancer au chargement
 Fetching();
+
 
 </script>
 

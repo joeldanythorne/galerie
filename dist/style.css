@@ -3,7 +3,7 @@
   --color2: rgba(255, 255, 255, 0.40); /* reflexion moyenne */
   --carte1: rgba(255, 255, 255, 0.20); /* couche subtile */
   --carte2: rgba(0, 0, 0, 0.10);       /* ombre grise légère */
-  --back: url(https://k3t0warri0r-coder.github.io/assets/Oracle-back.png);
+  --crochet: url(assets/images/crochet.png);
   --c01front: url(assets/images/thumb_vitrai-uvh.png);
   --c02front: url(assets/images/thumb_bleuet.png);
   --c03front: url(assets/images/thumb_bottine.png);
@@ -45,7 +45,7 @@
   --c39front: url(assets/images/thumb_trump2.png);
   --c40front: url(assets/images/thumb_une-fois-au-chalet.png);
   --c41front: url(assets/images/thumb_uvh.png);
-  --c42front: url(assets/images/thumb_Stucco.jpg);
+  --c42front: url(assets/images/thumb_stucco.jpg);
   --c43front: url(assets/images/thumb_nightmare.png);
 }
 
@@ -59,7 +59,7 @@
   touch-action: none;
   isolation: isolate;
   
-  border-radius: 5% / 3.5%;
+  /*border-radius: 5% / 3.5%;*/
 
   box-shadow: 
     -5px -5px 5px -5px var(--color1),
@@ -67,7 +67,7 @@
     -7px -7px 10px -5px transparent,
      7px  7px 10px -5px transparent,
      0   0   5px  0   rgba(255,255,255,0),
-     0  55px 35px -20px rgba(0, 0, 0, 0.5);
+     0  30px 30px -20px rgba(0, 0, 0, 0.5);
 
   transition: transform 0.5s ease, box-shadow 0.2s ease;
   will-change: transform, filter;
@@ -77,6 +77,40 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+
+  transform-origin: center;
+}
+
+.sans-cadre {
+  width: 300px;
+  height: 300px;
+
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+  touch-action: none;
+  isolation: isolate;
+  
+  /*border-radius: 5% / 3.5%;*/
+
+  /*box-shadow: 
+    -5px -5px 5px -5px var(--color1),
+     5px  5px 5px -5px var(--color2),
+    -7px -7px 10px -5px transparent,
+     7px  7px 10px -5px transparent,
+     0   0   5px  0   rgba(255,255,255,0),
+     0  55px 35px -20px rgba(0, 0, 0, 0.5);
+
+  transition: transform 0.5s ease, box-shadow 0.2s ease;
+  will-change: transform, filter;*/
+
+  /*background-color: #040712;
+  background-image: var(--front);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;*/
+
+  background: var(--crochet);
 
   transform-origin: center;
 }
@@ -110,7 +144,7 @@
     -7px -7px 10px -5px transparent, 
     7px 7px 10px -5px transparent, 
     0 0 5px 0px rgba(255,255,255,0),
-    0 55px 35px -20px rgba(0, 0, 0, 0.5);
+    0 30px 30px -20px rgba(0, 0, 0, 0.5);
   
   transition: transform 0.5s ease, box-shadow 0.2s ease;
   will-change: transform, filter;
@@ -131,7 +165,7 @@
     -7px -7px 10px -5px var(--color1), 
     7px 7px 10px -5px var(--color2), 
     0 0 13px 4px rgba(255,255,255,0.3),
-    0 55px 35px -20px rgba(0, 0, 0, 0.5);
+    0 30px 30px -20px rgba(0, 0, 0, 0.5);
 }
 
 .oldc4rd2:hover {
@@ -1181,7 +1215,7 @@
   box-shadow: 
     0 0 30px -5px white,
     0 0 10px -2px white,
-    0 55px 35px -20px rgba(0, 0, 0, 0.5);
+    0 30px 30px -20px rgba(0, 0, 0, 0.5);
 }
 .cadre.eevee:hover:before,
 .cadre.eevee.active:before {
@@ -1249,20 +1283,32 @@
 
 html, body {
   height: 100%;
-  background-color: #333844;
+  background-color: #fff;
   padding: 0;
   z-index: 1;
   transform: translate3d(0,0,0.1px);
 }
 body {
-  color: white;
-  background-color: #333844;
+  color: #333844;
+  background-color: #fff;
   font-family: "Heebo", sans-serif;
   text-align: center;
 }
+
 h1 {
+  font-size: 1.6em;
   display: block;
-  margin: 30px 0;
+  margin: 0px 0 35px 0px;
+  padding:0;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2em;
+    display: block;
+    margin: 0 0 60px 0;
+    padding: 0;
+  }
 }
 p {
   margin-top: 5px;
@@ -1270,19 +1316,30 @@ p {
 }
 #app {
   position: relative;
+  padding:60px 15px;
+}
+@media (min-width: 768px) {
+  #app {
+    position: relative;
+    padding:80px 15px;
+  }
 }
 
 
 .galerie { 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-  flex-wrap: wrap;
-  margin:0 auto;
-  max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Centrer toute la galerie dans la page */
+    justify-content: center;
+
+    /* Aligner les items entre eux à gauche */
+    align-content: flex-start;
+    align-items: flex-start;
+
+    max-width: 1420px;
+    margin: 0 auto; /* centre le bloc entier */
+    gap: 20px;      /* optionnel : espace entre cartes */
 }
 .galerie-wrapper {
   flex-direction: row;
