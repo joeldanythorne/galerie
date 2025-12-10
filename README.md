@@ -1,2 +1,2 @@
-# tarot-overlay
-Mon overlay Tarot pour Twitch
+# galerie
+Mon overlay galerie pour Twitch
