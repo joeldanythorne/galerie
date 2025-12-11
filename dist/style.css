@@ -4,114 +4,151 @@
   --carte1: rgba(255, 255, 255, 0.20); /* couche subtile */
   --carte2: rgba(0, 0, 0, 0.10);       /* ombre grise légère */
   --crochet: url(assets/images/crochet-2.png);
-  --c01front: url(assets/images/thumb_vitrai-uvh.png);
-  --c02front: url(assets/images/thumb_bleuet.png);
-  --c03front: url(assets/images/thumb_bottine.png);
-  --c04front: url(assets/images/thumb_clown.png);
-  --c05front: url(assets/images/thumb_conspipuppet.png);
-  --c06front: url(assets/images/thumb_crimesoda.png);
-  --c07front: url(assets/images/thumb_ensemble.png);
-  --c08front: url(assets/images/thumb_evildead.png);
-  --c09front: url(assets/images/thumb_file-indienne.png);
-  --c10front: url(assets/images/thumb_friday13.png);
-  --c11front: url(assets/images/thumb_gaudet.png);
-  --c12front: url(assets/images/thumb_godzilla.png);
-  --c13front: url(assets/images/thumb_groundhog.jpg);
-  --c14front: url(assets/images/thumb_guenilles.png);
-  --c15front: url(assets/images/thumb_hugo.png);
-  --c16front: url(assets/images/thumb_karltremblay.png);
-  --c17front: url(assets/images/thumb_karma.png);
-  --c18front: url(assets/images/thumb_lego.png);
-  --c19front: url(assets/images/thumb_lotr.png);
-  --c20front: url(assets/images/thumb_louiseville2024.png);
-  --c21front: url(assets/images/thumb_lynda.png);
-  --c22front: url(assets/images/thumb_mado.png);
-  --c23front: url(assets/images/thumb_maillet.png);
-  --c24front: url(assets/images/thumb_matrix.png);
-  --c25front: url(assets/images/thumb_orgonite01.png);
-  --c26front: url(assets/images/thumb_orgonite3.png);
-  --c27front: url(assets/images/thumb_orgonite-de-nowel.png);
-  --c28front: url(assets/images/thumb_peter.png);
-  --c29front: url(assets/images/thumb_probtechniques.png);
-  --c30front: url(assets/images/thumb_ptit-joel.jpg);
-  --c31front: url(assets/images/thumb_mutevh.png);
-  --c32front: url(assets/images/thumb_napu.png);
-  --c33front: url(assets/images/thumb_singérome.png);
-  --c34front: url(assets/images/thumb_starwars.png);
-  --c35front: url(assets/images/thumb_steve.jpg);
-  --c36front: url(assets/images/thumb_taser.png);
-  --c37front: url(assets/images/thumb_theremin.jpg);
-  --c38front: url(assets/images/thumb_trump.png);
-  --c39front: url(assets/images/thumb_trump2.png);
-  --c40front: url(assets/images/thumb_une-fois-au-chalet.png);
-  --c41front: url(assets/images/thumb_uvh.png);
-  --c42front: url(assets/images/thumb_stucco.jpg);
-  --c43front: url(assets/images/thumb_nightmare.png);
+  --cadre: url(assets/images/cadre-vide.png);
+  --c01tableau: url(assets/images/thumb_vitrai-uvh.png);
+  --c01sketch: url(assets/images/thumb_vitrai-uvh_sketch.png);
+  --c02tableau: url(assets/images/thumb_bleuet.png);
+  --c02sketch: url(assets/images/thumb_bleuet_sketch.png);
+  --c03tableau: url(assets/images/thumb_bottine.png);
+  --c03sketch: url(assets/images/thumb_bottine_sketch.png);
+  --c04tableau: url(assets/images/thumb_clown.png);
+  --c04sketch: url(assets/images/thumb_clown_sketch.png);
+  --c05tableau: url(assets/images/thumb_conspipuppet.png);
+  --c05sketch: url(assets/images/thumb_conspipuppet_sketch.png);
+  --c06tableau: url(assets/images/thumb_crimesoda.png);
+  --c06sketch: url(assets/images/thumb_crimesoda_sketch.png);
+  --c07tableau: url(assets/images/thumb_ensemble.png);
+  --c07sketch: url(assets/images/thumb_ensemble_sketch.png);
+  --c08tableau: url(assets/images/thumb_evildead.png);
+  --c08sketch: url(assets/images/thumb_evildead_sketch.png);
+  --c09tableau: url(assets/images/thumb_file-indienne.png);
+  --c09sketch: url(assets/images/thumb_file-indienne_sketch.png);
+  --c10tableau: url(assets/images/thumb_friday13.png);
+  --c10sketch: url(assets/images/thumb_friday13_sketch.png);
+  --c11tableau: url(assets/images/thumb_gaudet.png);
+  --c11sketch: url(assets/images/thumb_gaudet_sketch.png);
+  --c12tableau: url(assets/images/thumb_godzilla.png);
+  --c12sketch: url(assets/images/thumb_godzilla_sketch.png);
+  --c13tableau: url(assets/images/thumb_groundhog.jpg);
+  --c13sketch: url(assets/images/thumb_groundhog_sketch.jpg);
+  --c14tableau: url(assets/images/thumb_guenilles.png);
+  --c14sketch: url(assets/images/thumb_guenilles_sketch.png);
+  --c15tableau: url(assets/images/thumb_hugo.png);
+  --c15sketch: url(assets/images/thumb_hugo_sketch.png);
+  --c16tableau: url(assets/images/thumb_karltremblay.png);
+  --c16sketch: url(assets/images/thumb_karltremblay_sketch.png);
+  --c17tableau: url(assets/images/thumb_karma.png);
+  --c17sketch: url(assets/images/thumb_karma_sketch.png);
+  --c18tableau: url(assets/images/thumb_lego.png);
+  --c18sketch: url(assets/images/thumb_lego_sketch.png);
+  --c19tableau: url(assets/images/thumb_lotr.png);
+  --c19sketch: url(assets/images/thumb_lotr_sketch.png);
+  --c20tableau: url(assets/images/thumb_louiseville2024.png);
+  --c20sketch: url(assets/images/thumb_louiseville2024_sketch.png);
+  --c21tableau: url(assets/images/thumb_lynda.png);
+  --c21sketch: url(assets/images/thumb_lynda_sketch.png);
+  --c22tableau: url(assets/images/thumb_mado.png);
+  --c22sketch: url(assets/images/thumb_mado_sketch.png);
+  --c23tableau: url(assets/images/thumb_maillet.png);
+  --c23sketch: url(assets/images/thumb_maillet_sketch.png);
+  --c24tableau: url(assets/images/thumb_matrix.png);
+  --c24sketch: url(assets/images/thumb_matrix_sketch.png);
+  --c25tableau: url(assets/images/thumb_orgonite01.png);
+  --c25sketch: url(assets/images/thumb_orgonite01_sketch.png);
+  --c26tableau: url(assets/images/thumb_orgonite3.png);
+  --c26sketch: url(assets/images/thumb_orgonite3_sketch.png);
+  --c27tableau: url(assets/images/thumb_orgonite-de-nowel.png);
+  --c27sketch: url(assets/images/thumb_orgonite-de-nowel_sketch.png);
+  --c28tableau: url(assets/images/thumb_peter.png);
+  --c28sketch: url(assets/images/thumb_peter_sketch.png);
+  --c29tableau: url(assets/images/thumb_probtechniques.png);
+  --c29sketch: url(assets/images/thumb_probtechniques_sketch.png);
+  --c30tableau: url(assets/images/thumb_ptit-joel.jpg);
+  --c30sketch: url(assets/images/thumb_ptit-joel_sketch.jpg);
+  --c31tableau: url(assets/images/thumb_mutevh.png);
+  --c31sketch: url(assets/images/thumb_mutevh_sketch.png);
+  --c32tableau: url(assets/images/thumb_napu.png);
+  --c32sketch: url(assets/images/thumb_napu_sketch.png);
+  --c33tableau: url(assets/images/thumb_singérome.png);
+  --c33sketch: url(assets/images/thumb_singérome_sketch.png);
+  --c34tableau: url(assets/images/thumb_starwars.png);
+  --c34sketch: url(assets/images/thumb_starwars_sketch.png);
+  --c35tableau: url(assets/images/thumb_steve.jpg);
+  --c35sketch: url(assets/images/thumb_steve_sketch.jpg);
+  --c36tableau: url(assets/images/thumb_taser.png);
+  --c36sketch: url(assets/images/thumb_taser_sketch.png);
+  --c37tableau: url(assets/images/thumb_theremin.jpg);
+  --c37sketch: url(assets/images/thumb_theremin_sketch.jpg);
+  --c38tableau: url(assets/images/thumb_trump.png);
+  --c38sketch: url(assets/images/thumb_trump_sketch.png);
+  --c39tableau: url(assets/images/thumb_trump2.png);
+  --c39sketch: url(assets/images/thumb_trump2_sketch.png);
+  --c40tableau: url(assets/images/thumb_une-fois-au-chalet.png);
+  --c40sketch: url(assets/images/thumb_une-fois-au-chalet_sketch.png);
+  --c41tableau: url(assets/images/thumb_uvh.png);
+  --c41sketch: url(assets/images/thumb_uvh_sketch.png);
+  --c42tableau: url(assets/images/thumb_stucco.jpg);
+  --c42sketch: url(assets/images/thumb_stucco_sketch.jpg);
+  --c43tableau: url(assets/images/thumb_nightmare.png);
+  --c43sketch: url(assets/images/thumb_nightmare_sketch.png);
 }
+
+.tableau {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+  touch-action: none;
+  isolation: isolate;
+  transition: transform 0.5s ease;
+  will-change: transform, filter;
+  background-color: #040712;
+  background-image: var(--tableau);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transform-origin: center;
+}
+/*.sketch {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+  touch-action: none;
+  isolation: isolate;
+  transition: transform 0.5s ease;
+  will-change: transform, filter;
+  background-color: #040712;
+  background-image: var(--tableau);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transform-origin: center;
+}*/
+
 
 .cadre {
   width: 300px;
   height: 300px;
-
   position: relative;
   margin: 20px;
   overflow: hidden;
   touch-action: none;
   isolation: isolate;
-  
-  /*border-radius: 5% / 3.5%;*/
-
-  /*box-shadow: 
-    -5px -5px 5px -5px var(--color1),
-     5px  5px 5px -5px var(--color2),
-    -7px -7px 10px -5px transparent,
-     7px  7px 10px -5px transparent,
-     0   0   5px  0   rgba(255,255,255,0),
-     0  30px 30px -20px rgba(0, 0, 0, 0.5);*/
-
-  transition: transform 0.5s ease/*, box-shadow 0.2s ease*/;
-  will-change: transform, filter;
-
-  background-color: #040712;
-  background-image: var(--front);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-
+  background: var(--cadre);
   transform-origin: center;
 }
-
 .sans-cadre {
   width: 300px;
   height: 300px;
-
   position: relative;
   margin: 20px;
   overflow: hidden;
   touch-action: none;
   isolation: isolate;
-  
-  /*border-radius: 5% / 3.5%;*/
-
-  /*box-shadow: 
-    -5px -5px 5px -5px var(--color1),
-     5px  5px 5px -5px var(--color2),
-    -7px -7px 10px -5px transparent,
-     7px  7px 10px -5px transparent,
-     0   0   5px  0   rgba(255,255,255,0),
-     0  55px 35px -20px rgba(0, 0, 0, 0.5);
-
-  transition: transform 0.5s ease, box-shadow 0.2s ease;
-  will-change: transform, filter;*/
-
-  /*background-color: #040712;
-  background-image: var(--front);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;*/
-
   background: var(--crochet);
-
   transform-origin: center;
 }
 
@@ -158,7 +195,7 @@
   
 }
 
-.cadre:hover {
+.tableau:hover {
   box-shadow: 
     -20px -20px 30px -25px var(--color1), 
     20px 20px 30px -25px var(--color2), 
@@ -180,832 +217,827 @@
 
 
 
-.oldc4rd2.cback {
+.oeuvre.c01 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--back);
+  --tableau: var(--c01tableau);
 }
-.cadre.c01 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --front: var(--c01front);
-}
 
-.oldc4rd2.c01 {
+.sketch.c01 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c01front);
+  --tableau: var(--c01sketch);
 }
-.cadre.c02 {
+.oeuvre.c02 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c02front);
+  --tableau: var(--c02tableau);
 }
 
-.oldc4rd2.c02 {
+.sketch.c02 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c02front);
+  --tableau: var(--c02sketch);
 }
-.cadre.c03 {
+.oeuvre.c03 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c03front);
+  --tableau: var(--c03tableau);
 }
 
-.oldc4rd2.c03 {
+.sketch.c03 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c03front);
+  --tableau: var(--c03sketch);
 }
-.cadre.c04 {
+.oeuvre.c04 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c04front);
+  --tableau: var(--c04tableau);
 }
 
-.oldc4rd2.c04 {
+.sketch.c04 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c04front);
+  --tableau: var(--c04sketch);
 }
-.cadre.c05 {
+.oeuvre.c05 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c05front);
+  --tableau: var(--c05tableau);
 }
 
-.oldc4rd2.c05 {
+.sketch.c05 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c05front);
+  --tableau: var(--c05sketch);
 }
-.cadre.c06 {
+.oeuvre.c06 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c06front);
+  --tableau: var(--c06tableau);
 }
 
-.oldc4rd2.c06 {
+.sketch.c06 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c06front);
+  --tableau: var(--c06sketch);
 }
-.cadre.c07 {
+.oeuvre.c07 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c07front);
+  --tableau: var(--c07tableau);
 }
 
-.oldc4rd2.c07 {
+.sketch.c07 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c07front);
+  --tableau: var(--c07sketch);
 }
-.cadre.c08 {
+.oeuvre.c08 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c08front);
+  --tableau: var(--c08tableau);
 }
 
-.oldc4rd2.c08 {
+.sketch.c08 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c08front);
+  --tableau: var(--c08sketch);
 }
-.cadre.c09 {
+.oeuvre.c09 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c09front);
+  --tableau: var(--c09tableau);
 }
 
-.oldc4rd2.c09 {
+.sketch.c09 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c09front);
+  --tableau: var(--c09sketch);
 }
-.cadre.c10 {
+.oeuvre.c10 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c10front);
+  --tableau: var(--c10tableau);
 }
 
-.oldc4rd2.c10 {
+.sketch.c10 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c10front);
+  --tableau: var(--c10sketch);
 }
-.cadre.c11 {
+.oeuvre.c11 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c11front);
+  --tableau: var(--c11tableau);
 }
 
-.oldc4rd2.c11 {
+.sketch.c11 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c11front);
+  --tableau: var(--c11sketch);
 }
-.cadre.c12 {
+.oeuvre.c12 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c12front);
+  --tableau: var(--c12tableau);
 }
 
-.oldc4rd2.c12 {
+.sketch.c12 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c12front);
+  --tableau: var(--c12sketch);
 }
-.cadre.c13 {
+.oeuvre.c13 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c13front);
+  --tableau: var(--c13tableau);
 }
 
-.oldc4rd2.c13 {
+.sketch.c13 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c13front);
+  --tableau: var(--c13sketch);
 }
-.cadre.c14 {
+.oeuvre.c14 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c14front);
+  --tableau: var(--c14tableau);
 }
 
-.oldc4rd2.c14 {
+.sketch.c14 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c14front);
+  --tableau: var(--c14sketch);
 }
-.cadre.c15 {
+.oeuvre.c15 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c15front);
+  --tableau: var(--c15tableau);
 }
 
-.oldc4rd2.c15 {
+.sketch.c15 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c15front);
+  --tableau: var(--c15sketch);
 }
-.cadre.c16 {
+.oeuvre.c16 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c16front);
+  --tableau: var(--c16tableau);
 }
 
-.oldc4rd2.c16 {
+.sketch.c16 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c16front);
+  --tableau: var(--c16sketch);
 }
-.cadre.c17 {
+.oeuvre.c17 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c17front);
+  --tableau: var(--c17tableau);
 }
 
-.oldc4rd2.c17 {
+.sketch.c17 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c17front);
+  --tableau: var(--c17sketch);
 }
-.cadre.c18 {
+.oeuvre.c18 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c18front);
+  --tableau: var(--c18tableau);
 }
 
-.oldc4rd2.c18 {
+.sketch.c18 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c18front);
+  --tableau: var(--c18sketch);
 }
-.cadre.c19 {
+.oeuvre.c19 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c19front);
+  --tableau: var(--c19tableau);
 }
 
-.oldc4rd2.c19 {
+.sketch.c19 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c19front);
+  --tableau: var(--c19sketch);
 }
-.cadre.c20 {
+.oeuvre.c20 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c20front);
+  --tableau: var(--c20tableau);
 }
 
-.oldc4rd2.c20 {
+.sketch.c20 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c20front);
+  --tableau: var(--c20sketch);
 }
-.cadre.c21 {
+.oeuvre.c21 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c21front);
+  --tableau: var(--c21tableau);
 }
 
-.oldc4rd2.c21 {
+.sketch.c21 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c21front);
+  --tableau: var(--c21sketch);
 }
-.cadre.c22 {
+.oeuvre.c22 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c22front);
+  --tableau: var(--c22tableau);
 }
 
-.oldc4rd2.c22 {
+.sketch.c22 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c22front);
+  --tableau: var(--c22sketch);
 }
-.cadre.c23 {
+.oeuvre.c23 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c23front);
+  --tableau: var(--c23tableau);
 }
 
-.oldc4rd2.c23 {
+.sketch.c23 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c23front);
+  --tableau: var(--c23sketch);
 }
-.cadre.c24 {
+.oeuvre.c24 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c24front);
+  --tableau: var(--c24tableau);
 }
 
-.oldc4rd2.c24 {
+.sketch.c24 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c24front);
+  --tableau: var(--c24sketch);
 }
-.cadre.c25 {
+.oeuvre.c25 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c25front);
+  --tableau: var(--c25tableau);
 }
 
-.oldc4rd2.c25 {
+.sketch.c25 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c25front);
+  --tableau: var(--c25sketch);
 }
-.cadre.c26 {
+.oeuvre.c26 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c26front);
+  --tableau: var(--c26tableau);
 }
 
-.oldc4rd2.c26 {
+.sketch.c26 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c26front);
+  --tableau: var(--c26sketch);
 }
-.cadre.c27 {
+.oeuvre.c27 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c27front);
+  --tableau: var(--c27tableau);
 }
 
-.oldc4rd2.c27 {
+.sketch.c27 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c27front);
+  --tableau: var(--c27sketch);
 }
-.cadre.c28 {
+.oeuvre.c28 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c28front);
+  --tableau: var(--c28tableau);
 }
 
-.oldc4rd2.c28 {
+.sketch.c28 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c28front);
+  --tableau: var(--c28sketch);
 }
-.cadre.c29 {
+.oeuvre.c29 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c29front);
+  --tableau: var(--c29tableau);
 }
 
-.oldc4rd2.c29 {
+.sketch.c29 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c29front);
+  --tableau: var(--c29sketch);
 }
-.cadre.c30 {
+.oeuvre.c30 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c30front);
+  --tableau: var(--c30tableau);
 }
 
-.oldc4rd2.c30 {
+.sketch.c30 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c30front);
+  --tableau: var(--c30sketch);
 }
-.cadre.c31 {
+.oeuvre.c31 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c31front);
+  --tableau: var(--c31tableau);
 }
 
-.oldc4rd2.c31 {
+.sketch.c31 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c31front);
+  --tableau: var(--c31sketch);
 }
-.cadre.c32 {
+.oeuvre.c32 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c32front);
+  --tableau: var(--c32tableau);
 }
 
-.oldc4rd2.c32 {
+.sketch.c32 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c32front);
+  --tableau: var(--c32sketch);
 }
-.cadre.c33 {
+.oeuvre.c33 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c33front);
+  --tableau: var(--c33tableau);
 }
 
-.oldc4rd2.c33 {
+.sketch.c33 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c33front);
+  --tableau: var(--c33sketch);
 }
-.cadre.c34 {
+.oeuvre.c34 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c34front);
+  --tableau: var(--c34tableau);
 }
 
-.oldc4rd2.c34 {
+.sketch.c34 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c34front);
+  --tableau: var(--c34sketch);
 }
-.cadre.c35 {
+.oeuvre.c35 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c35front);
+  --tableau: var(--c35tableau);
 }
 
-.oldc4rd2.c35 {
+.sketch.c35 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c35front);
+  --tableau: var(--c35sketch);
 }
-.cadre.c36 {
+.oeuvre.c36 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c36front);
+  --tableau: var(--c36tableau);
 }
 
-.oldc4rd2.c36 {
+.sketch.c36 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c36front);
+  --tableau: var(--c36sketch);
 }
-.cadre.c37 {
+.oeuvre.c37 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c37front);
+  --tableau: var(--c37tableau);
 }
 
-.oldc4rd2.c37 {
+.sketch.c37 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c37front);
+  --tableau: var(--c37sketch);
 }
-.cadre.c38 {
+.oeuvre.c38 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c38front);
+  --tableau: var(--c38tableau);
 }
 
-.oldc4rd2.c38 {
+.sketch.c38 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c38front);
+  --tableau: var(--c38sketch);
 }
-.cadre.c39 {
+.oeuvre.c39 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c39front);
+  --tableau: var(--c39tableau);
 }
 
-.oldc4rd2.c39 {
+.sketch.c39 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c39front);
+  --tableau: var(--c39sketch);
 }
-.cadre.c40 {
+.oeuvre.c40 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c40front);
+  --tableau: var(--c40tableau);
 }
 
-.oldc4rd2.c40 {
+.sketch.c40 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c40front);
+  --tableau: var(--c40sketch);
 }
-.cadre.c41 {
+.oeuvre.c41 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c41front);
+  --tableau: var(--c41tableau);
 }
 
-.oldc4rd2.c41 {
+.sketch.c41 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c41front);
+  --tableau: var(--c41sketch);
 }
-.cadre.c42 {
+.oeuvre.c42 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c42front);
+  --tableau: var(--c42tableau);
 }
 
-.oldc4rd2.c42 {
+.sketch.c42 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c42front);
+  --tableau: var(--c42sketch);
 }
-.cadre.c43 {
+.oeuvre.c43 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c43front);
+  --tableau: var(--c43tableau);
 }
 
-.oldc4rd2.c43 {
+.sketch.c43 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c43front);
+  --tableau: var(--c43sketch);
 }
-.cadre.c44 {
+.oeuvre.c44 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c44front);
+  --tableau: var(--c44tableau);
 }
 
-.oldc4rd2.c44 {
+.sketch.c44 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c44front);
+  --tableau: var(--c44sketch);
 }
-.cadre.c45 {
+.oeuvre.c45 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c45front);
+  --tableau: var(--c45tableau);
 }
 
-.oldc4rd2.c45 {
+.sketch.c45 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c45front);
+  --tableau: var(--c45sketch);
 }
-.cadre.c46 {
+.oeuvre.c46 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c46front);
+  --tableau: var(--c46tableau);
 }
 
-.oldc4rd2.c46 {
+.sketch.c46 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c46front);
+  --tableau: var(--c46sketch);
 }
-.cadre.c47 {
+.oeuvre.c47 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c47front);
+  --tableau: var(--c47tableau);
 }
 
-.oldc4rd2.c47 {
+.sketch.c47 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c47front);
+  --tableau: var(--c47sketch);
 }
-.cadre.c48 {
+.oeuvre.c48 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c48front);
+  --tableau: var(--c48tableau);
 }
 
-.oldc4rd2.c48 {
+.sketch.c48 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c48front);
+  --tableau: var(--c48sketch);
 }
-.cadre.c49 {
+.oeuvre.c49 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c49front);
+  --tableau: var(--c49tableau);
 }
 
-.oldc4rd2.c49 {
+.sketch.c49 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c49front);
+  --tableau: var(--c49sketch);
 }
-.cadre.c50 {
+.oeuvre.c50 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c50front);
+  --tableau: var(--c50tableau);
 }
 
-.oldc4rd2.c50 {
+.sketch.c50 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c50front);
+  --tableau: var(--c50sketch);
 }
-.cadre.c51 {
+.oeuvre.c51 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c51front);
+  --tableau: var(--c51tableau);
 }
 
-.oldc4rd2.c51 {
+.sketch.c51 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c51front);
+  --tableau: var(--c51sketch);
 }
-.cadre.c52 {
+.oeuvre.c52 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c52front);
+  --tableau: var(--c52tableau);
 }
 
-.oldc4rd2.c52 {
+.sketch.c52 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c52front);
+  --tableau: var(--c52sketch);
 }
-.cadre.c53 {
+.oeuvre.c53 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c53front);
+  --tableau: var(--c53tableau);
 }
 
-.oldc4rd2.c53 {
+.sketch.c53 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c53front);
+  --tableau: var(--c53sketch);
 }
-.cadre.c54 {
+.oeuvre.c54 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c54front);
+  --tableau: var(--c54tableau);
 }
 
-.oldc4rd2.c54 {
+.sketch.c54 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c54front);
+  --tableau: var(--c54sketch);
 }
-.cadre.c55 {
+.oeuvre.c55 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c55front);
+  --tableau: var(--c55tableau);
 }
 
-.oldc4rd2.c55 {
+.sketch.c55 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c55front);
+  --tableau: var(--c55sketch);
 }
-.cadre.c56 {
+.oeuvre.c56 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c56front);
+  --tableau: var(--c56tableau);
 }
 
-.oldc4rd2.c56 {
+.sketch.c56 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c56front);
+  --tableau: var(--c56sketch);
 }
-.cadre.c57 {
+.oeuvre.c57 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c57front);
+  --tableau: var(--c57tableau);
 }
 
-.oldc4rd2.c57 {
+.sketch.c57 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c57front);
+  --tableau: var(--c57sketch);
 }
-.cadre.c58 {
+.oeuvre.c58 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c58front);
+  --tableau: var(--c58tableau);
 }
 
-.oldc4rd2.c58 {
+.sketch.c58 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c58front);
+  --tableau: var(--c58sketch);
 }
-.cadre.c59 {
+.oeuvre.c59 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c59front);
+  --tableau: var(--c59tableau);
 }
 
-.oldc4rd2.c59 {
+.sketch.c59 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c59front);
+  --tableau: var(--c59sketch);
 }
-.cadre.c60 {
+.oeuvre.c60 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c60front);
+  --tableau: var(--c60tableau);
 }
 
-.oldc4rd2.c60 {
+.sketch.c60 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c60front);
+  --tableau: var(--c60sketch);
 }
-.cadre.c61 {
+.oeuvre.c61 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c61front);
+  --tableau: var(--c61tableau);
 }
 
-.oldc4rd2.c61 {
+.sketch.c61 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c61front);
+  --tableau: var(--c61sketch);
 }
-.cadre.c62 {
+.oeuvre.c62 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c62front);
+  --tableau: var(--c62tableau);
 }
 
-.oldc4rd2.c62 {
+.sketch.c62 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c62front);
+  --tableau: var(--c62sketch);
 }
-.cadre.c63 {
+.oeuvre.c63 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c63front);
+  --tableau: var(--c63tableau);
 }
 
-.oldc4rd2.c63 {
+.sketch.c63 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c63front);
+  --tableau: var(--c63sketch);
 }
-.cadre.c64 {
+.oeuvre.c64 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c64front);
+  --tableau: var(--c64tableau);
 }
 
-.oldc4rd2.c64 {
+.sketch.c64 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c64front);
+  --tableau: var(--c64sketch);
 }
-.cadre.c65 {
+.oeuvre.c65 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c65front);
+  --tableau: var(--c65tableau);
 }
 
-.oldc4rd2.c65 {
+.sketch.c65 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c65front);
+  --tableau: var(--c65sketch);
 }
-.cadre.c66 {
+.oeuvre.c66 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c66front);
+  --tableau: var(--c66tableau);
 }
 
-.oldc4rd2.c66 {
+.sketch.c66 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c66front);
+  --tableau: var(--c66sketch);
 }
-.cadre.c67 {
+.oeuvre.c67 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c67front);
+  --tableau: var(--c67tableau);
 }
 
-.oldc4rd2.c67 {
+.sketch.c67 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c67front);
+  --tableau: var(--c67sketch);
 }
-.cadre.c68 {
+.oeuvre.c68 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c68front);
+  --tableau: var(--c68tableau);
 }
 
-.oldc4rd2.c68 {
+.sketch.c68 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c68front);
+  --tableau: var(--c68sketch);
 }
-.cadre.c69 {
+.oeuvre.c69 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c69front);
+  --tableau: var(--c69tableau);
 }
 
-.oldc4rd2.c69 {
+.sketch.c69 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c69front);
+  --tableau: var(--c69sketch);
 }
-.cadre.c70 {
+.oeuvre.c70 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c70front);
+  --tableau: var(--c70tableau);
 }
 
-.oldc4rd2.c70 {
+.sketch.c70 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c70front);
+  --tableau: var(--c70sketch);
 }
-.cadre.c71 {
+.oeuvre.c71 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c71front);
+  --tableau: var(--c71tableau);
 }
 
-.oldc4rd2.c71 {
+.sketch.c71 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c71front);
+  --tableau: var(--c71sketch);
 }
-.cadre.c72 {
+.oeuvre.c72 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c72front);
+  --tableau: var(--c72tableau);
 }
 
-.oldc4rd2.c72 {
+.sketch.c72 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c72front);
+  --tableau: var(--c72sketch);
 }
-.cadre.c73 {
+.oeuvre.c73 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c73front);
+  --tableau: var(--c73tableau);
 }
 
-.oldc4rd2.c73 {
+.sketch.c73 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c73front);
+  --tableau: var(--c73sketch);
 }
-.cadre.c74 {
+.oeuvre.c74 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c74front);
+  --tableau: var(--c74tableau);
 }
 
-.oldc4rd2.c74 {
+.sketch.c74 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --front: var(--c74front);
+  --tableau: var(--c74sketch);
 }
 
 
 
 
 
-.cadre:before,
-.cadre:after {
+.tableau:before,
+.tableau:after {
   content: "";
   position: absolute;
   left: 0;
@@ -1032,7 +1064,7 @@
   transition: all .33s ease;
 }
 
-.cadre:before {
+.tableau:before {
   background-position: 50% 50%;
   background-size: 300% 300%;
   background-image: linear-gradient(
@@ -1049,7 +1081,7 @@
   z-index: 1;
 }
 
-.cadre:after {
+.tableau:after {
   opacity: 1;
   background-image: linear-gradient(
   125deg,
@@ -1068,8 +1100,8 @@
   opacity: .75;
 }
 
-.cadre.active:after,
-.cadre:hover:after {
+.tableau.active:after,
+.tableau:hover:after {
   filter: brightness(1) contrast(1);;
   opacity: 1;
 }
@@ -1080,8 +1112,8 @@
   opacity: 1;
 }
 
-.cadre.active,
-.cadre:hover {
+.tableau.active,
+.tableau:hover {
   animation: none;
   transition: box-shadow 0.1s ease-out;
 }
@@ -1092,8 +1124,8 @@
   transition: box-shadow 0.1s ease-out;
 }
 
-.cadre.active:before,
-.cadre:hover:before {
+.tableau.active:before,
+.tableau:hover:before {
   animation: none;
   background-image: linear-gradient(
     110deg,
@@ -1109,15 +1141,15 @@
   transition: none;
 }
 
-.cadre.active:before,
-.cadre:hover:before,
-.cadre.active:after,
-.cadre:hover:after {
+.tableau.active:before,
+.tableau:hover:before,
+.tableau.active:after,
+.tableau:hover:after {
   animation: none;
   transition: none;
 }
 
-.cadre.animated {
+.tableau.animated {
   transition: none;
   animation: holoCard 12s ease 0s 1;
   &:before { 
@@ -1211,14 +1243,14 @@
 
 
 
-.cadre.eevee:hover {
+.tableau.eevee:hover {
   box-shadow: 
     0 0 30px -5px white,
     0 0 10px -2px white,
     /*0 30px 30px -20px rgba(0, 0, 0, 0.5)*/;
 }
-.cadre.eevee:hover:before,
-.cadre.eevee.active:before {
+.tableau.eevee:hover:before,
+.tableau.eevee.active:before {
   background-image: linear-gradient(
     115deg,
     transparent 20%,
@@ -1238,40 +1270,40 @@
   isolation: isolate;
   transform: translate3d(0.1px, 0.1px, 0.1px )
 }
-.galerie-wrapper .cadre {
+.galerie-wrapper .tableau {
   background-image: var(--back);
   font-size: 2vh
 }
-.galerie-wrapper .cadre > span {
+.galerie-wrapper .tableau > span {
   position: relative;
   top: 45%;
 }
 
-.galerie-wrapper .cadre:nth-of-type(1),
-.galerie-wrapper .cadre:nth-of-type(2),
-.galerie-wrapper .cadre:nth-of-type(3) {
+.galerie-wrapper .tableau:nth-of-type(1),
+.galerie-wrapper .tableau:nth-of-type(2),
+.galerie-wrapper .tableau:nth-of-type(3) {
   width: 20vh;
   height: 27.5vh;
   box-shadow: inset 0 0 0 1px rgba(white,0.4)/*, 0 25px 15px -10px rgba(0, 0, 0, 0.5)*/;
   animation: none;
 }
 
-.galerie-wrapper .cadre:nth-of-type(1),
-.galerie-wrapper .cadre:nth-of-type(2),
-.galerie-wrapper .cadre:nth-of-type(3) {
+.galerie-wrapper .tableau:nth-of-type(1),
+.galerie-wrapper .tableau:nth-of-type(2),
+.galerie-wrapper .tableau:nth-of-type(3) {
   &:before, &:after {
     animation: none;
     // opacity: 1;
   } 
 }
-.galerie-wrapper .cadre:nth-of-type(1) {
+.galerie-wrapper .tableau:nth-of-type(1) {
   &:before, &:after { display: none; }
 }
-.galerie-wrapper .cadre:nth-of-type(2) {
+.galerie-wrapper .tableau:nth-of-type(2) {
   background: none;
   &:before { display: none; }
 }
-.galerie-wrapper .cadre:nth-of-type(3) {
+.galerie-wrapper .tableau:nth-of-type(3) {
   background: none;
   &:after { display: none; }
 }
@@ -1331,7 +1363,7 @@ p {
     flex-wrap: wrap;
 
     /* Centrer toute la galerie dans la page */
-    justify-content: center;
+    justify-content: flex-start;
 
     /* Aligner les items entre eux à gauche */
     align-content: flex-start;
@@ -1341,6 +1373,19 @@ p {
     margin: 0 auto; /* centre le bloc entier */
     gap: 20px;      /* optionnel : espace entre cartes */
 }
+
+@media screen and (max-width: 1420px) {
+  .galerie { 
+      max-width: 1060px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .galerie { 
+      max-width: 700px;
+  }
+}
+
 .galerie-wrapper {
   flex-direction: row;
   justify-content: center;
@@ -1357,7 +1402,7 @@ p {
 
 
 
-.galerie .cadre {
+.galerie .tableau {
   &:nth-child(2) {
     &, &:before, &:after {
       animation-delay: 0.25s;

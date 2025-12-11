@@ -73,12 +73,11 @@ let text =  '<section class="galerie">';
 
 console.log("File:: ./collectioninfo/"+ viewer +".json")
 
+
 async function Fetching() {
-  // Section HTML qui va contenir toutes les cartes
   let text = '<section class="galerie">';
 
   try {
-    // Récupère le JSON du viewer (ex: ./collectioninfo/ccsuburban.json)
     const response = await fetch('./collectioninfo/' + viewer + '.json');
 
     if (!response.ok) {
@@ -87,36 +86,47 @@ async function Fetching() {
     } else {
       const jsonData = await response.json();
 
-      console.log('Collection chargée pour le viewer :', viewer);
-      console.log('Nombre de cartes définies :', Object.keys(states_dictionary2).length);
+      console.log('Collection chargée pour :', viewer);
 
       const totalCards = Object.keys(states_dictionary2).length;
 
-      // Boucle sur toutes les cartes définies dans states_dictionary2
       for (let i = 1; i <= totalCards; i++) {
-        // "01", "02", "03", ...
-        const znumber = i.toString().padStart(2, '0');
+        // 01, 02, 03, ..., 43
+        const znumber = (i < 10) ? '0' + i : i.toString();
 
-        // Nom de la carte / clé JSON (ex: "vitrai-uvh", "bleuet", etc.)
+        // Nom clé dans le JSON, ex: "vitrai-uvh"
         const cardKey = states_dictionary2[znumber];
 
-        // Valeur dans le JSON: 1 = possède, 0 ou undefined = ne possède pas
-        const owned = jsonData[cardKey] === 1;
+        // Par défaut → sans-cadre
+        let classe = 'sans-cadre';
 
-        // Wrapper 3D autour de la carte
-        text += '<div class="three-d-wrapper">';
+        // On regarde si cette clé existe dans le JSON
+        const entry = jsonData[cardKey];
 
-        if (owned) {
-          // Carte possédée → version "normale"
-          console.log('Carte possédée :', cardKey, '(c' + znumber + ')');
-          text += '<div class="cadre c' + znumber + ' animated"></div>';
-        } else {
-          // Carte non possédée → version "dos / grisée / autre visuel"
-          console.log('Carte non possédée :', cardKey, '(c' + znumber + ')');
-          text += '<div class="sans-cadre c' + znumber + ' animated"></div>';
+        if (Array.isArray(entry) && entry.length >= 3) {
+          const cadre  = entry[0] === 1; // [0] → cadre
+          const sketch = entry[1] === 1; // [1] → sketch
+          const oeuvre = entry[2] === 1; // [2] → oeuvre
+
+          // Priorité : oeuvre > sketch > cadre
+          if (oeuvre) {
+            classe = 'tableau oeuvre';
+          } else if (sketch) {
+            classe = 'tableau sketch';
+          } else if (cadre) {
+            classe = 'tableau cadre';
+          } else {
+            classe = 'sans-cadre';
+          }
         }
 
-        text += '</div>'; // fin .three-d-wrapper
+        console.log(`Affichage : ${classe} → ${cardKey} (c${znumber})`);
+
+        text += `
+          <div class="three-d-wrapper">
+            <div class="${classe} c${znumber} animated"></div>
+          </div>
+        `;
       }
     }
   } catch (err) {
@@ -124,13 +134,21 @@ async function Fetching() {
     text += '<p class="error">Erreur interne lors du chargement des cartes.</p>';
   }
 
-  // Fermeture de la section et injection dans la page
   text += '</section>';
-  document.getElementById('galerie-wrapper').innerHTML = text;
+
+  // Injection dans le container (ID)
+  const wrapper = document.getElementById('galerie-wrapper');
+  if (wrapper) {
+    wrapper.innerHTML = text;
+  } else {
+    console.error('⚠️ Élément #galerie-wrapper introuvable dans le DOM.');
+  }
 }
 
 // Lancer au chargement
 Fetching();
+
+
 
 
 </script>
