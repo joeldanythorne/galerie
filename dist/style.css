@@ -3,94 +3,94 @@
   --color2: rgba(255, 255, 255, 0.40); /* reflexion moyenne */
   --carte1: rgba(255, 255, 255, 0.20); /* couche subtile */
   --carte2: rgba(0, 0, 0, 0.10);       /* ombre grise légère */
-  --crochet: url(assets/images/crochet-2.png);
+  --crochet: url(assets/images/crochet.png);
   --cadre: url(assets/images/cadre-vide.png);
-  --c01tableau: url(assets/images/thumb_vitrai-uvh.png);
-  --c01sketch: url(assets/images/thumb_vitrai-uvh_sketch.png);
-  --c02tableau: url(assets/images/thumb_bleuet.png);
-  --c02sketch: url(assets/images/thumb_bleuet_sketch.png);
-  --c03tableau: url(assets/images/thumb_bottine.png);
-  --c03sketch: url(assets/images/thumb_bottine_sketch.png);
-  --c04tableau: url(assets/images/thumb_clown.png);
-  --c04sketch: url(assets/images/thumb_clown_sketch.png);
-  --c05tableau: url(assets/images/thumb_conspipuppet.png);
-  --c05sketch: url(assets/images/thumb_conspipuppet_sketch.png);
-  --c06tableau: url(assets/images/thumb_crimesoda.png);
-  --c06sketch: url(assets/images/thumb_crimesoda_sketch.png);
-  --c07tableau: url(assets/images/thumb_ensemble.png);
-  --c07sketch: url(assets/images/thumb_ensemble_sketch.png);
-  --c08tableau: url(assets/images/thumb_evildead.png);
-  --c08sketch: url(assets/images/thumb_evildead_sketch.png);
-  --c09tableau: url(assets/images/thumb_file-indienne.png);
-  --c09sketch: url(assets/images/thumb_file-indienne_sketch.png);
-  --c10tableau: url(assets/images/thumb_friday13.png);
-  --c10sketch: url(assets/images/thumb_friday13_sketch.png);
-  --c11tableau: url(assets/images/thumb_gaudet.png);
-  --c11sketch: url(assets/images/thumb_gaudet_sketch.png);
-  --c12tableau: url(assets/images/thumb_godzilla.png);
-  --c12sketch: url(assets/images/thumb_godzilla_sketch.png);
-  --c13tableau: url(assets/images/thumb_groundhog.jpg);
-  --c13sketch: url(assets/images/thumb_groundhog_sketch.jpg);
-  --c14tableau: url(assets/images/thumb_guenilles.png);
-  --c14sketch: url(assets/images/thumb_guenilles_sketch.png);
-  --c15tableau: url(assets/images/thumb_hugo.png);
-  --c15sketch: url(assets/images/thumb_hugo_sketch.png);
-  --c16tableau: url(assets/images/thumb_karltremblay.png);
-  --c16sketch: url(assets/images/thumb_karltremblay_sketch.png);
-  --c17tableau: url(assets/images/thumb_karma.png);
-  --c17sketch: url(assets/images/thumb_karma_sketch.png);
-  --c18tableau: url(assets/images/thumb_lego.png);
-  --c18sketch: url(assets/images/thumb_lego_sketch.png);
-  --c19tableau: url(assets/images/thumb_lotr.png);
-  --c19sketch: url(assets/images/thumb_lotr_sketch.png);
-  --c20tableau: url(assets/images/thumb_louiseville2024.png);
-  --c20sketch: url(assets/images/thumb_louiseville2024_sketch.png);
-  --c21tableau: url(assets/images/thumb_lynda.png);
-  --c21sketch: url(assets/images/thumb_lynda_sketch.png);
-  --c22tableau: url(assets/images/thumb_mado.png);
-  --c22sketch: url(assets/images/thumb_mado_sketch.png);
-  --c23tableau: url(assets/images/thumb_maillet.png);
-  --c23sketch: url(assets/images/thumb_maillet_sketch.png);
-  --c24tableau: url(assets/images/thumb_matrix.png);
-  --c24sketch: url(assets/images/thumb_matrix_sketch.png);
-  --c25tableau: url(assets/images/thumb_orgonite01.png);
-  --c25sketch: url(assets/images/thumb_orgonite01_sketch.png);
-  --c26tableau: url(assets/images/thumb_orgonite3.png);
-  --c26sketch: url(assets/images/thumb_orgonite3_sketch.png);
-  --c27tableau: url(assets/images/thumb_orgonite-de-nowel.png);
-  --c27sketch: url(assets/images/thumb_orgonite-de-nowel_sketch.png);
-  --c28tableau: url(assets/images/thumb_peter.png);
-  --c28sketch: url(assets/images/thumb_peter_sketch.png);
-  --c29tableau: url(assets/images/thumb_probtechniques.png);
-  --c29sketch: url(assets/images/thumb_probtechniques_sketch.png);
-  --c30tableau: url(assets/images/thumb_ptit-joel.jpg);
-  --c30sketch: url(assets/images/thumb_ptit-joel_sketch.jpg);
-  --c31tableau: url(assets/images/thumb_mutevh.png);
-  --c31sketch: url(assets/images/thumb_mutevh_sketch.png);
-  --c32tableau: url(assets/images/thumb_napu.png);
-  --c32sketch: url(assets/images/thumb_napu_sketch.png);
-  --c33tableau: url(assets/images/thumb_singérome.png);
-  --c33sketch: url(assets/images/thumb_singérome_sketch.png);
-  --c34tableau: url(assets/images/thumb_starwars.png);
-  --c34sketch: url(assets/images/thumb_starwars_sketch.png);
-  --c35tableau: url(assets/images/thumb_steve.jpg);
-  --c35sketch: url(assets/images/thumb_steve_sketch.jpg);
-  --c36tableau: url(assets/images/thumb_taser.png);
-  --c36sketch: url(assets/images/thumb_taser_sketch.png);
-  --c37tableau: url(assets/images/thumb_theremin.jpg);
-  --c37sketch: url(assets/images/thumb_theremin_sketch.jpg);
-  --c38tableau: url(assets/images/thumb_trump.png);
-  --c38sketch: url(assets/images/thumb_trump_sketch.png);
-  --c39tableau: url(assets/images/thumb_trump2.png);
-  --c39sketch: url(assets/images/thumb_trump2_sketch.png);
-  --c40tableau: url(assets/images/thumb_une-fois-au-chalet.png);
-  --c40sketch: url(assets/images/thumb_une-fois-au-chalet_sketch.png);
-  --c41tableau: url(assets/images/thumb_uvh.png);
-  --c41sketch: url(assets/images/thumb_uvh_sketch.png);
-  --c42tableau: url(assets/images/thumb_stucco.jpg);
-  --c42sketch: url(assets/images/thumb_stucco_sketch.jpg);
-  --c43tableau: url(assets/images/thumb_nightmare.png);
-  --c43sketch: url(assets/images/thumb_nightmare_sketch.png);
+  --c01oeuvre: url(assets/images/oeuvre_bleuet3.png);
+  --c01sketch: url(assets/images/sketch_Bleuet2.png);
+  --c02oeuvre: url(assets/images/oeuvre_bottine3.png);
+  --c02sketch: url(assets/images/sketch_bottine2.png);
+  --c03oeuvre: url(assets/images/oeuvre_Clown3.png);
+  --c03sketch: url(assets/images/sketch_Clown2.png);
+  --c04oeuvre: url(assets/images/oeuvre_CrimeSoda3.png);
+  --c04sketch: url(assets/images/sketch_CrimeSoda2.png);
+  --c05oeuvre: url(assets/images/oeuvre_conspipuppet3.png);
+  --c05sketch: url(assets/images/sketch_conspipuppet2.png);
+  --c06oeuvre: url(assets/images/oeuvre_evildead3.png);
+  --c06sketch: url(assets/images/sketch_evildead2.png);
+  --c07oeuvre: url(assets/images/oeuvre_ensemble3.png);
+  --c07sketch: url(assets/images/sketch_ensemble2.png);
+  --c08oeuvre: url(assets/images/oeuvre_FDDLP03.png);
+  --c08sketch: url(assets/images/sketch_FDDLP02.png);
+  --c09oeuvre: url(assets/images/oeuvre_file_indienne3.png);
+  --c09sketch: url(assets/images/sketch_file_indienne2.png);
+  --c10oeuvre: url(assets/images/oeuvre_friday3.png);
+  --c10sketch: url(assets/images/sketch_friday2.png);
+  --c11oeuvre: url(assets/images/oeuvre_gaudet3.png);
+  --c11sketch: url(assets/images/sketch_gaudet2.png);
+  --c12oeuvre: url(assets/images/oeuvre_godzilla3.png);
+  --c12sketch: url(assets/images/sketch_godzilla2.png);
+  --c13oeuvre: url(assets/images/oeuvre_groundhog3.png);
+  --c13sketch: url(assets/images/sketch_Groundhog2.png);
+  --c14oeuvre: url(assets/images/oeuvre_guenilles3.png);
+  --c14sketch: url(assets/images/sketch_guenilles2.png);
+  --c15oeuvre: url(assets/images/oeuvre_hugo3.png);
+  --c15sketch: url(assets/images/sketch_hugo2.png);
+  --c16oeuvre: url(assets/images/oeuvre_karma3.png);
+  --c16sketch: url(assets/images/sketch_karma2.png);
+  --c17oeuvre: url(assets/images/oeuvre_karltremblay3.png);
+  --c17sketch: url(assets/images/sketch_karltremblay2.png);
+  --c18oeuvre: url(assets/images/oeuvre_lego3.png);
+  --c18sketch: url(assets/images/sketch_lego2.png);
+  --c19oeuvre: url(assets/images/oeuvre_lotr3.png);
+  --c19sketch: url(assets/images/sketch_lotr2.png);
+  --c20oeuvre: url(assets/images/oeuvre_louiseville20243.png);
+  --c20sketch: url(assets/images/sketch_louiseville20242.png);
+  --c21oeuvre: url(assets/images/oeuvre_lynda3.png);
+  --c21sketch: url(assets/images/sketch_lynda2.png);
+  --c22oeuvre: url(assets/images/oeuvre_mado3.png);
+  --c22sketch: url(assets/images/sketch_mado2.png);
+  --c23oeuvre: url(assets/images/oeuvre_maillet3.png);
+  --c23sketch: url(assets/images/sketch_maillet2.png);
+  --c24oeuvre: url(assets/images/oeuvre_matrix3.png);
+  --c24sketch: url(assets/images/sketch_matrix2.png);
+  --c25oeuvre: url(assets/images/oeuvre_mutevh3.png);
+  --c25sketch: url(assets/images/sketch_mutevh2.png);
+  --c26oeuvre: url(assets/images/oeuvre_napu3.png);
+  --c26sketch: url(assets/images/sketch_napu2.png);
+  --c27oeuvre: url(assets/images/oeuvre_nightmare3.png);
+  --c27sketch: url(assets/images/sketch_nightmare2.png);
+  --c28oeuvre: url(assets/images/oeuvre_orgonite_de_nowel3.png);
+  --c28sketch: url(assets/images/sketch_orgonite_de_nowel2.png);
+  --c29oeuvre: url(assets/images/oeuvre_orgonitebleu3.png);
+  --c29sketch: url(assets/images/sketch_orgonitebleu2.png);
+  --c30oeuvre: url(assets/images/oeuvre_originaleorgonite3.png);
+  --c30sketch: url(assets/images/sketch_originaleorgonite2.png);
+  --c31oeuvre: url(assets/images/oeuvre_peter3.png);
+  --c31sketch: url(assets/images/sketch_peter2.png);
+  --c32oeuvre: url(assets/images/oeuvre_PROBTECHNIQUES3.png);
+  --c32sketch: url(assets/images/sketch_PROBTECHNIQUES2.png);
+  --c33oeuvre: url(assets/images/oeuvre_ptit_joel3.png);
+  --c33sketch: url(assets/images/sketch_ptit_joel2.png);
+  --c34oeuvre: url(assets/images/oeuvre_singerome3.png);
+  --c34sketch: url(assets/images/sketch_singerome2.png);
+  --c35oeuvre: url(assets/images/oeuvre_starwars3.png);
+  --c35sketch: url(assets/images/sketch_starwars2.png);
+  --c36oeuvre: url(assets/images/oeuvre_steve3.png);
+  --c36sketch: url(assets/images/sketch_steve2.png);
+  --c37oeuvre: url(assets/images/oeuvre_Stucco3.png);
+  --c37sketch: url(assets/images/sketch_Stucco2.png);
+  --c38oeuvre: url(assets/images/oeuvre_theremin3.png);
+  --c38sketch: url(assets/images/sketch_theremin2.png);
+  --c39oeuvre: url(assets/images/oeuvre_trump3.png);
+  --c39sketch: url(assets/images/sketch_trump2.png);
+  --c40oeuvre: url(assets/images/oeuvre_trumpmask3.png);
+  --c40sketch: url(assets/images/sketch_trumpmask2.png);
+  --c41oeuvre: url(assets/images/oeuvre_une_fois_au_chalet3.png);
+  --c41sketch: url(assets/images/sketch_une_fois_au_chalet2.png);
+  --c42oeuvre: url(assets/images/oeuvre_uvh3.png);
+  --c42sketch: url(assets/images/sketch_uvh2.png);
+  --c43oeuvre: url(assets/images/oeuvre_Vitrail_UVH3.png);
+  --c43sketch: url(assets/images/sketch_Vitrail_UVH2.png);
 }
 
 .tableau {
@@ -121,7 +121,7 @@
   transition: transform 0.5s ease;
   will-change: transform, filter;
   background-color: #040712;
-  background-image: var(--tableau);
+  background-image: var(--oeuvre);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -220,7 +220,7 @@
 .oeuvre.c01 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c01tableau);
+  --tableau: var(--c01oeuvre);
 }
 
 .sketch.c01 {
@@ -231,7 +231,7 @@
 .oeuvre.c02 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c02tableau);
+  --tableau: var(--c02oeuvre);
 }
 
 .sketch.c02 {
@@ -242,7 +242,7 @@
 .oeuvre.c03 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c03tableau);
+  --tableau: var(--c03oeuvre);
 }
 
 .sketch.c03 {
@@ -253,7 +253,7 @@
 .oeuvre.c04 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c04tableau);
+  --tableau: var(--c04oeuvre);
 }
 
 .sketch.c04 {
@@ -264,7 +264,7 @@
 .oeuvre.c05 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c05tableau);
+  --tableau: var(--c05oeuvre);
 }
 
 .sketch.c05 {
@@ -275,7 +275,7 @@
 .oeuvre.c06 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c06tableau);
+  --tableau: var(--c06oeuvre);
 }
 
 .sketch.c06 {
@@ -286,7 +286,7 @@
 .oeuvre.c07 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c07tableau);
+  --tableau: var(--c07oeuvre);
 }
 
 .sketch.c07 {
@@ -297,7 +297,7 @@
 .oeuvre.c08 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c08tableau);
+  --tableau: var(--c08oeuvre);
 }
 
 .sketch.c08 {
@@ -308,7 +308,7 @@
 .oeuvre.c09 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c09tableau);
+  --tableau: var(--c09oeuvre);
 }
 
 .sketch.c09 {
@@ -319,7 +319,7 @@
 .oeuvre.c10 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c10tableau);
+  --tableau: var(--c10oeuvre);
 }
 
 .sketch.c10 {
@@ -330,7 +330,7 @@
 .oeuvre.c11 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c11tableau);
+  --tableau: var(--c11oeuvre);
 }
 
 .sketch.c11 {
@@ -341,7 +341,7 @@
 .oeuvre.c12 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c12tableau);
+  --tableau: var(--c12oeuvre);
 }
 
 .sketch.c12 {
@@ -352,7 +352,7 @@
 .oeuvre.c13 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c13tableau);
+  --tableau: var(--c13oeuvre);
 }
 
 .sketch.c13 {
@@ -363,7 +363,7 @@
 .oeuvre.c14 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c14tableau);
+  --tableau: var(--c14oeuvre);
 }
 
 .sketch.c14 {
@@ -374,7 +374,7 @@
 .oeuvre.c15 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c15tableau);
+  --tableau: var(--c15oeuvre);
 }
 
 .sketch.c15 {
@@ -385,7 +385,7 @@
 .oeuvre.c16 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c16tableau);
+  --tableau: var(--c16oeuvre);
 }
 
 .sketch.c16 {
@@ -396,7 +396,7 @@
 .oeuvre.c17 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c17tableau);
+  --tableau: var(--c17oeuvre);
 }
 
 .sketch.c17 {
@@ -407,7 +407,7 @@
 .oeuvre.c18 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c18tableau);
+  --tableau: var(--c18oeuvre);
 }
 
 .sketch.c18 {
@@ -418,7 +418,7 @@
 .oeuvre.c19 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c19tableau);
+  --tableau: var(--c19oeuvre);
 }
 
 .sketch.c19 {
@@ -429,7 +429,7 @@
 .oeuvre.c20 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c20tableau);
+  --tableau: var(--c20oeuvre);
 }
 
 .sketch.c20 {
@@ -440,7 +440,7 @@
 .oeuvre.c21 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c21tableau);
+  --tableau: var(--c21oeuvre);
 }
 
 .sketch.c21 {
@@ -451,7 +451,7 @@
 .oeuvre.c22 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c22tableau);
+  --tableau: var(--c22oeuvre);
 }
 
 .sketch.c22 {
@@ -462,7 +462,7 @@
 .oeuvre.c23 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c23tableau);
+  --tableau: var(--c23oeuvre);
 }
 
 .sketch.c23 {
@@ -473,7 +473,7 @@
 .oeuvre.c24 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c24tableau);
+  --tableau: var(--c24oeuvre);
 }
 
 .sketch.c24 {
@@ -484,7 +484,7 @@
 .oeuvre.c25 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c25tableau);
+  --tableau: var(--c25oeuvre);
 }
 
 .sketch.c25 {
@@ -495,7 +495,7 @@
 .oeuvre.c26 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c26tableau);
+  --tableau: var(--c26oeuvre);
 }
 
 .sketch.c26 {
@@ -506,7 +506,7 @@
 .oeuvre.c27 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c27tableau);
+  --tableau: var(--c27oeuvre);
 }
 
 .sketch.c27 {
@@ -517,7 +517,7 @@
 .oeuvre.c28 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c28tableau);
+  --tableau: var(--c28oeuvre);
 }
 
 .sketch.c28 {
@@ -528,7 +528,7 @@
 .oeuvre.c29 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c29tableau);
+  --tableau: var(--c29oeuvre);
 }
 
 .sketch.c29 {
@@ -539,7 +539,7 @@
 .oeuvre.c30 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c30tableau);
+  --tableau: var(--c30oeuvre);
 }
 
 .sketch.c30 {
@@ -550,7 +550,7 @@
 .oeuvre.c31 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c31tableau);
+  --tableau: var(--c31oeuvre);
 }
 
 .sketch.c31 {
@@ -561,7 +561,7 @@
 .oeuvre.c32 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c32tableau);
+  --tableau: var(--c32oeuvre);
 }
 
 .sketch.c32 {
@@ -572,7 +572,7 @@
 .oeuvre.c33 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c33tableau);
+  --tableau: var(--c33oeuvre);
 }
 
 .sketch.c33 {
@@ -583,7 +583,7 @@
 .oeuvre.c34 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c34tableau);
+  --tableau: var(--c34oeuvre);
 }
 
 .sketch.c34 {
@@ -594,7 +594,7 @@
 .oeuvre.c35 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c35tableau);
+  --tableau: var(--c35oeuvre);
 }
 
 .sketch.c35 {
@@ -605,7 +605,7 @@
 .oeuvre.c36 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c36tableau);
+  --tableau: var(--c36oeuvre);
 }
 
 .sketch.c36 {
@@ -616,7 +616,7 @@
 .oeuvre.c37 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c37tableau);
+  --tableau: var(--c37oeuvre);
 }
 
 .sketch.c37 {
@@ -627,7 +627,7 @@
 .oeuvre.c38 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c38tableau);
+  --tableau: var(--c38oeuvre);
 }
 
 .sketch.c38 {
@@ -638,7 +638,7 @@
 .oeuvre.c39 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c39tableau);
+  --tableau: var(--c39oeuvre);
 }
 
 .sketch.c39 {
@@ -649,7 +649,7 @@
 .oeuvre.c40 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c40tableau);
+  --tableau: var(--c40oeuvre);
 }
 
 .sketch.c40 {
@@ -660,7 +660,7 @@
 .oeuvre.c41 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c41tableau);
+  --tableau: var(--c41oeuvre);
 }
 
 .sketch.c41 {
@@ -671,7 +671,7 @@
 .oeuvre.c42 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c42tableau);
+  --tableau: var(--c42oeuvre);
 }
 
 .sketch.c42 {
@@ -682,7 +682,7 @@
 .oeuvre.c43 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c43tableau);
+  --tableau: var(--c43oeuvre);
 }
 
 .sketch.c43 {
@@ -693,7 +693,7 @@
 .oeuvre.c44 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c44tableau);
+  --tableau: var(--c44oeuvre);
 }
 
 .sketch.c44 {
@@ -704,7 +704,7 @@
 .oeuvre.c45 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c45tableau);
+  --tableau: var(--c45oeuvre);
 }
 
 .sketch.c45 {
@@ -715,7 +715,7 @@
 .oeuvre.c46 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c46tableau);
+  --tableau: var(--c46oeuvre);
 }
 
 .sketch.c46 {
@@ -726,7 +726,7 @@
 .oeuvre.c47 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c47tableau);
+  --tableau: var(--c47oeuvre);
 }
 
 .sketch.c47 {
@@ -737,7 +737,7 @@
 .oeuvre.c48 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c48tableau);
+  --tableau: var(--c48oeuvre);
 }
 
 .sketch.c48 {
@@ -748,7 +748,7 @@
 .oeuvre.c49 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c49tableau);
+  --tableau: var(--c49oeuvre);
 }
 
 .sketch.c49 {
@@ -759,7 +759,7 @@
 .oeuvre.c50 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c50tableau);
+  --tableau: var(--c50oeuvre);
 }
 
 .sketch.c50 {
@@ -770,7 +770,7 @@
 .oeuvre.c51 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c51tableau);
+  --tableau: var(--c51oeuvre);
 }
 
 .sketch.c51 {
@@ -781,7 +781,7 @@
 .oeuvre.c52 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c52tableau);
+  --tableau: var(--c52oeuvre);
 }
 
 .sketch.c52 {
@@ -792,7 +792,7 @@
 .oeuvre.c53 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c53tableau);
+  --tableau: var(--c53oeuvre);
 }
 
 .sketch.c53 {
@@ -803,7 +803,7 @@
 .oeuvre.c54 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c54tableau);
+  --tableau: var(--c54oeuvre);
 }
 
 .sketch.c54 {
@@ -814,7 +814,7 @@
 .oeuvre.c55 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c55tableau);
+  --tableau: var(--c55oeuvre);
 }
 
 .sketch.c55 {
@@ -825,7 +825,7 @@
 .oeuvre.c56 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c56tableau);
+  --tableau: var(--c56oeuvre);
 }
 
 .sketch.c56 {
@@ -836,7 +836,7 @@
 .oeuvre.c57 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c57tableau);
+  --tableau: var(--c57oeuvre);
 }
 
 .sketch.c57 {
@@ -847,7 +847,7 @@
 .oeuvre.c58 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c58tableau);
+  --tableau: var(--c58oeuvre);
 }
 
 .sketch.c58 {
@@ -858,7 +858,7 @@
 .oeuvre.c59 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c59tableau);
+  --tableau: var(--c59oeuvre);
 }
 
 .sketch.c59 {
@@ -869,7 +869,7 @@
 .oeuvre.c60 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c60tableau);
+  --tableau: var(--c60oeuvre);
 }
 
 .sketch.c60 {
@@ -880,7 +880,7 @@
 .oeuvre.c61 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c61tableau);
+  --tableau: var(--c61oeuvre);
 }
 
 .sketch.c61 {
@@ -891,7 +891,7 @@
 .oeuvre.c62 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c62tableau);
+  --tableau: var(--c62oeuvre);
 }
 
 .sketch.c62 {
@@ -902,7 +902,7 @@
 .oeuvre.c63 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c63tableau);
+  --tableau: var(--c63oeuvre);
 }
 
 .sketch.c63 {
@@ -913,7 +913,7 @@
 .oeuvre.c64 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c64tableau);
+  --tableau: var(--c64oeuvre);
 }
 
 .sketch.c64 {
@@ -924,7 +924,7 @@
 .oeuvre.c65 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c65tableau);
+  --tableau: var(--c65oeuvre);
 }
 
 .sketch.c65 {
@@ -935,7 +935,7 @@
 .oeuvre.c66 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c66tableau);
+  --tableau: var(--c66oeuvre);
 }
 
 .sketch.c66 {
@@ -946,7 +946,7 @@
 .oeuvre.c67 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c67tableau);
+  --tableau: var(--c67oeuvre);
 }
 
 .sketch.c67 {
@@ -957,7 +957,7 @@
 .oeuvre.c68 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c68tableau);
+  --tableau: var(--c68oeuvre);
 }
 
 .sketch.c68 {
@@ -968,7 +968,7 @@
 .oeuvre.c69 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c69tableau);
+  --tableau: var(--c69oeuvre);
 }
 
 .sketch.c69 {
@@ -979,7 +979,7 @@
 .oeuvre.c70 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c70tableau);
+  --tableau: var(--c70oeuvre);
 }
 
 .sketch.c70 {
@@ -990,7 +990,7 @@
 .oeuvre.c71 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c71tableau);
+  --tableau: var(--c71oeuvre);
 }
 
 .sketch.c71 {
@@ -1001,7 +1001,7 @@
 .oeuvre.c72 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c72tableau);
+  --tableau: var(--c72oeuvre);
 }
 
 .sketch.c72 {
@@ -1012,7 +1012,7 @@
 .oeuvre.c73 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c73tableau);
+  --tableau: var(--c73oeuvre);
 }
 
 .sketch.c73 {
@@ -1023,7 +1023,7 @@
 .oeuvre.c74 {
   --color1: var(--carte1);
   --color1: var(--carte2);
-  --tableau: var(--c74tableau);
+  --tableau: var(--c74oeuvre);
 }
 
 .sketch.c74 {
