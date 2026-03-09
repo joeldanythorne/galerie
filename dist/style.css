@@ -1042,7 +1042,7 @@ header {
 
 }
 h1 {
-  font-size: 1.6em;
+  font-size: 3.2em;
   display: block;
   margin: 0;
   padding:0;
@@ -1050,7 +1050,7 @@ h1 {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 2em;
+    font-size: 4em;
     display: block;
     /*margin: 0 0 60px 0;*/
     padding: 0;
